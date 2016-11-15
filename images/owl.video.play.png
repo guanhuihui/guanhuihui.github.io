@@ -6,9 +6,9 @@
   <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>ＺＴ云 - 网站首页</title>
+  <title>大猫哥流量 - 网站首页</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="keywords" content="ＺＴ云流量" />
+  <meta name="keywords" content="大猫哥流量,大猫哥流量广东流量,大猫哥流量全国流量特价,大猫哥流量流量包月,大猫哥流量4G流量" />
 
   <!-- Facebook and Twitter integration -->
   <meta property="og:title" content=""/>
@@ -36,10 +36,10 @@
   <!-- Bootstrap  -->
   <link rel="stylesheet" href="css/bootstrap.css">
 
-  <link rel="stylesheet" href="css/style_1_1.css">
+  <link rel="stylesheet" href="css/style_1.css">
 
   <!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
-  <link rel="stylesheet" id="theme-switch" href="css/style_1_1.css">
+  <link rel="stylesheet" id="theme-switch" href="css/style_1.css">
   <!-- End demo purposes only -->
 
   <!-- Modernizr JS -->
@@ -49,7 +49,7 @@
   <script src="js/respond.min.js"></script>
   <![endif]-->
 
-
+  <!--此页面由 DMK · 大猫哥™ 设计制作<br>如果您有任何意见或建议请电邮a1183297959@qq.com-->
 
   </head>
 <body>
@@ -61,7 +61,7 @@
               <div class="navbar-header">
                 <!-- Mobile Toggle Menu Button -->
           <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
-                  <a class="navbar-brand" href="./"><img src="picture/zesql4.png" />ＺＴ云流量</a>
+                  <a class="navbar-brand" href="/web/"><img src="http://i.niupic.com/images/2016/08/05/ZEsqL4.png" />大猫哥流量</a> 
               </div>
               <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -69,9 +69,9 @@
                   <li><a href="#" data-nav-section="services"><span>产品介绍</span></a></li>
                   <li><a href="#" data-nav-section="press"><span>软件安装</span></a></li>
                   <li><a href="#" data-nav-section="testimonials"><span>常见问题</span></a></li>
-                  <li><a href="#" data-nav-section="pricing"><span>云免服务器</span></a></li>
-                  <li><a target="_blank" href="http://www.zt3111.com:8888/" class="btn btn-primary btn-sm">登录</a></li>
-                  <li><a target="_blank" href="http://www.zt3111.com:8888/user/reg.php" class="btn btn-primary btn-sm">注册</a></li>
+                  <li><a href="#" data-nav-section="pricing"><span>加入我们</span></a></li>
+                  <li><a target="_blank" href="/user/login.php" class="btn btn-primary btn-sm">登录</a></li>
+                  <li><a target="_blank" href="/user/reg.php" class="btn btn-primary btn-sm">注册</a></li>
                 </ul>
               </div>
           </nav>
@@ -81,40 +81,38 @@
 	<div id="slider" data-section="home">
 		<div class="owl-carousel owl-carousel-fullwidth">
 
-		    <div class="item" style="background-image:url(images/hn0fqc.jpg)">
+		    <div class="item" style="background-image:url(http://i.niupic.com/images/2016/08/05/hn0fQC.jpg)">
 		    	<div class="overlay"></div>
 		    	<div class="container" style="position: relative;">
 		    		<div class="row">
 		    			<div class="col-md-8 col-md-offset-2 text-center">
 		    				<div class="fh5co-owl-text-wrap">
 						    	<div class="fh5co-owl-text">
-		    						<h1 class="fh5co-lead to-animate">超实惠云免服务器4G冲浪新时代</h1>
-									<h2 class="fh5co-sub-lead to-animate">抵制高价流量，让你使用专用的云免服务器，安全快捷！ </h2>
-									<p class="to-animate-2">
-										<a href="#" class="btn btn-primary btn-lg" data-nav-section="pricing">现在马上联系，获得技术支持</a>
-									</p>
+		    						<h1 class="fh5co-lead to-animate">超实惠流量冲浪新时代</h1>
+									<h2 class="fh5co-sub-lead to-animate">抵制高价流量，让你使用专用的流量服务，从而价格远远低于运营商，安全快捷！ </h2>
+									<p class="to-animate-2"><a href="#" class="btn btn-primary btn-lg" data-nav-section="press">现在马上下载，获得20MB免费体验</a></p>
 								</div>
 							</div>
 		    			</div>
 		    		</div>
 		    	</div>
 		    </div>
-		    <div class="item" style="background-image:url(images/29uhkr.jpg)">
+		    <div class="item" style="background-image:url(http://i.niupic.com/images/2016/08/08/29uhkR.jpg)">
 		    	<div class="container" style="position: relative;">
 		    		<div class="row">
 					    <div class="col-md-7 col-sm-7">
 			    			<div class="fh5co-owl-text-wrap">
 						    	<div class="fh5co-owl-text">
-						    		<h1 class="fh5co-lead to-animate">支持IOS6-IOS10系统</h1>
-									<h2 class="fh5co-sub-lead to-animate">一次安装永久支持续费，VPN连接200M服务器转接</h2>
-									<p class="to-animate-2"><a href="ios.html" class="btn btn-primary btn-lg">查看安装流程</a></p>
+						    		<h1 class="fh5co-lead to-animate">支持IOS6-IOS9系统</h1>
+									<h2 class="fh5co-sub-lead to-animate">一次安装永久支持续费，VPN连接100M服务器转接</h2>
+									<p class="to-animate-2"><a href="ios.php" class="btn btn-primary btn-lg">查看安装流程</a></p>
 						    	</div>
 						    </div>
 					    </div>
 		    		</div>
 		    	</div>
 		    </div>
-		    <div class="item item3" style="background-image:url(images/0i6fae.jpg)">
+		    <div class="item item3" style="background-image:url(http://i.niupic.com/images/2016/08/08/0i6FAE.jpg)">
 		    	<div class="container" style="position: relative;">
 		    		<div class="row">
 		    			<div class="col-md-7 col-md-push-1 col-md-push-5 col-sm-7 col-sm-push-1 col-sm-push-5">
@@ -122,7 +120,7 @@
 						    	<div class="fh5co-owl-text">
 						    		<h1 class="fh5co-lead to-animate">安卓系统完美支持</h1>
 									<h2 class="fh5co-sub-lead to-animate">操作人性化，流量软件上手很简单，使用仅需简单操作几步</h2>
-									<p class="to-animate-2"><a href="and.html" class="btn btn-primary btn-lg">查看安装流程</a></p>
+									<p class="to-animate-2"><a href="and.php" class="btn btn-primary btn-lg">查看安装流程</a></p>
 						    	</div>
 						    </div>
 					    </div>
@@ -133,7 +131,7 @@
 		</div>
 	</div>
     
-    <div class="copyrights">Collect from <a href="#" >ZT云流量</a></div>
+    <div class="copyrights">Collect from <a href="#" >大猫哥流量</a></div>
 	
 	<div id="fh5co-our-services" data-section="services">
 		<div class="container">
@@ -142,7 +140,7 @@
 					<h2 class="to-animate">产品介绍</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 to-animate">
-							<h3>ZT云流量是一个让用户体验超低的价格，高品质的流量服务，坚决让运营商让利惠民，我们将以实力赢得大家的青睐！</h3>
+							<h3>大猫哥流量是一个让用户体验超低的价格，高品质的流量服务，坚决让运营商让利惠民，我们将以实力赢得大家的青睐！</h3>
 						</div>
 					</div>
 				</div>
@@ -204,15 +202,15 @@
 				<div class="row row-bottom-padded-lg">
 					<div class="col-md-6 text-center to-animate">
 						<div class="person">
-							<a href="ios.html"><img src="picture/person2.jpg" class="img-responsive img-rounded" alt="Person"></a>
-							<a href="ios.html"><h3 class="name">IOS系统</h3></a>
+							<a href="ios.php"><img src="picture/person2.jpg" class="img-responsive img-rounded" alt="Person"></a>
+							<a href="ios.php"><h3 class="name">IOS系统</h3></a>
 							<div class="position">切换ID安装即可快速使用</div>
 						</div>
 					</div>
 					<div class="col-md-6 text-center to-animate">
 						<div class="person">
-							<a href="and.html"><img src="picture/person3.jpg" class="img-responsive img-rounded" alt="Person"></a>
-							<a href="and.html"><h3 class="name">安卓系统</h3></a>
+							<a href="and.php"><img src="picture/person3.jpg" class="img-responsive img-rounded" alt="Person"></a>
+							<a href="and.php"><h3 class="name">安卓系统</h3></a>
 							<div class="position">一键下载即可安装使用</div>
 						</div>
 					</div>
@@ -250,7 +248,7 @@
 					<div class="box-testimony to-animate">
 						<blockquote>
 							<span class="quote"><span><i class="icon-quote-left"></i></span></span>
-							<p>因为需要登录苹果美国版商店进行下载软件才可进行云流量的使用，中国苹果商店没有上架该软甲！</p>
+							<p>因为需要登录苹果美国版商店进行下载软件才可进行大猫哥流量的使用，中国苹果商店没有上架该软甲！</p>
 						</blockquote>
 						<p class="author">为什么要退出的苹果ID？</p>
 					</div>
@@ -303,7 +301,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 section-heading text-center">
-					<h2 class="single-animate animate-pricing-1">云免服务器+免流系统搭建</h2>
+					<h2 class="single-animate animate-pricing-1">加入我们</h2>
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2 subtext single-animate animate-pricing-2">
 							<h3>是否已经心动不已？马上合作加盟吧！</h3>
@@ -314,58 +312,60 @@
 			<div class="row">
 				<div class="col-md-3 col-sm-6 to-animate">
 					<div class="price-box popular">
-						<div class="popular-text">云免服务器30M独享+免流系统搭建</div>
-						<div class="price">258<small>元</small></div>
-						<p>每月免费2000G流量</p>
+						<div class="popular-text">流量体验</div>
+						<div class="price">0<small>元</small></div>
+						<p>注册新用户赠送20MB提供测试</p>
 						<hr>
 						<ul class="pricing-info">
-							<li>续费元65/月</li>
+							<li>1天免费体验</li>
+							<li>推荐好友送流量</li>
 						</ul>
-						<a href="http://wpa.qq.com/msgrd?v=1&uin=61383668&site=houdao.com&menu=yes" class="btn btn-primary btn-block" class="btn btn-default btn-sm">立即订购</a>
+						<a href="tencent://message/?uin=123456&Site=junjiecaiwu&Menu=yes" class="btn btn-default btn-sm">立即订购</a>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 to-animate">
 					<div class="price-box popular">
-						<div class="popular-text">云免服务器200M独享+免流系统搭建</div>
-						<div class="price">358<small>元起</small></div>
-						<p>每月免费2000G流量</p>
+						<div class="popular-text">按量计费</div>
+						<div class="price">5<small>元起</small></div>
+						<p>流量自由分配按需求订购，不限制速度与时间</p>
 						<hr>
 						<ul class="pricing-info">
-							<li>续费元130/月</li>
+							<li>多种套餐特惠</li>
+							<li>可以顺延升级</li>
 						</ul>
-						<a href="http://wpa.qq.com/msgrd?v=1&uin=61383668&site=houdao.com&menu=yes" class="btn btn-primary btn-block" class="btn btn-default btn-sm">立即订购</a>
+						<a href="tencent://message/?uin=123456&Site=junjiecaiwu&Menu=yes" class="btn btn-default btn-sm">立即订购</a>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 to-animate">
 					<div class="price-box popular">
-						<div class="popular-text">云免服务器200M独享+免流系统搭建</div>
-						<div class="price">358<small>元</small></div>
-						<p>每月免费2000G流量</p>
+						<div class="popular-text">包月计费</div>
+						<div class="price">50<small>元</small></div>
+						<p>适合每月无限流量轻松上网看视频和网页较多用户</p>
 						<hr>
 						<ul class="pricing-info">
-							<li>续费元130/月</li>
-
+							<li>有网就看</li>
+							<li>续费有送</li>
 						</ul>
-						<a href="http://wpa.qq.com/msgrd?v=1&uin=61383668&site=houdao.com&menu=yes" class="btn btn-primary btn-block" class="btn btn-default btn-sm">立即订购</a>
+						<a href="tencent://message/?uin=123456&Site=junjiecaiwu&Menu=yes" class="btn btn-default btn-sm">立即订购</a>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 to-animate">
 					<div class="price-box popular">
-						<div class="popular-text">云免服务器200M独享+免流系统搭建</div>
-						<div class="price">358<small>元</small></div>
-						<p>每月免费2000G流量</p>
+						<div class="popular-text">代理加盟</div>
+						<div class="price">200<small>元起</small></div>
+						<p>独立代理平台，可以自由组合套餐，手机都可以开卡</p>
 						<hr>
 						<ul class="pricing-info">
-							<li>续费元130/月</li>
-
+							<li>分级别代理，优惠提流量</li>
+							<li>每周更新促销活动</li>
 						</ul>
-						<a href="http://wpa.qq.com/msgrd?v=1&uin=61383668&site=houdao.com&menu=yes" class="btn btn-primary btn-block" class="btn btn-default btn-sm">立即订购</a>
+						<a href="tencent://message/?uin=123456&Site=junjiecaiwu&Menu=yes" class="btn btn-default btn-sm">立即订购</a>
 					</div>
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-md-4 col-md-offset-4">
-					<a href="http://wpa.qq.com/msgrd?v=1&uin=61383668&site=houdao.com&menu=yes" class="btn btn-primary btn-block">马上成为老板</a>
+					<a href="tencent://message/?uin=123456&Site=junjiecaiwu&Menu=yes#" class="btn btn-primary btn-block">马上成为代理</a>
 				</div>
 			</div>
 		</div>
@@ -376,7 +376,7 @@
         <div class="container">
             <div class="row row-bottom-padded-sm">
                 <div class="col-md-12">
-                    <p class="copyright text-center">&copy; 2016 <a href="./">ZT云流量</a>. All Rights Reserved.</p>
+                    <p class="copyright text-center">&copy; 2016 <a href="/web/">大猫哥流量</a>. All Rights Reserved.</p>
                 </div>
             </div>
             <div class="row hide">
@@ -432,11 +432,11 @@
     <script src="js/main.js"></script>
 
     <!-- Add fancyBox main JS and CSS files -->  
-    <script src="js/jquery.fancybox.js" type="text/javascript"></script>  
-    <link href="css/jquery.fancybox.css" media="screen" rel="stylesheet" type="text/css" />  
+    <script src="js/fancybox/jquery.fancybox.js?v=2.1.4" type="text/javascript"></script>  
+    <link href="js/fancybox/jquery.fancybox.css?v=2.1.4" media="screen" rel="stylesheet" type="text/css" />  
     <!-- fancybox_app -->  
-    <script src="js/fancybox_app.js" type="text/javascript"></script>  
+    <script src="js/fancybox/fancybox_app.js" type="text/javascript"></script>  
     <!-- Add mousewheel plugin (this is optional) -->  
-    <script src="js/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>  
+    <script src="js/fancybox/jquery.mousewheel-3.0.6.pack.js" type="text/javascript"></script>  
 	</body>
 </html>
