@@ -149,6 +149,7 @@
                                 </div>
                                 <div class="vertica2_img2 position_a">
                                     <img class="blocks" id="btn_xin" src="img/p6_pic3.png" alt="">
+                                    <div class="vertica2_img2_div"></div>
                                 </div>
 
                                 <div class="vertica2_p opacity0 timer_1s">
@@ -515,11 +516,14 @@ $(function(){
            that.swiperV_click(swiperV);
         },swiperV_click:function(swiperV){
             var step = 500,step_timer,that = this,is = 0,
-                btn_xin = $('#btn_xin'),bth_lower = $('#bth_lower'),bth_lower2 = $('#bth_lower2')
+                btn_xin = $('#vertica2_img2_div'),bth_lower = $('#bth_lower'),bth_lower2 = $('#bth_lower2')
             btn_xin.on('touchstart',function(e) {
-                var that_this = $(this);
+                e.preventDefault();
+                var that_this = $(this).siblings('img');
+                return false;
                 step_timer = setInterval(function(){
                     step--;
+                     console.log(step);
                     if(step == 400){
                         that.step_fun();
                         that_this.attr('src','img/p6_pic4.png');
@@ -541,7 +545,7 @@ $(function(){
             });
             btn_xin.on('touchmove',function(e) {
                 clearInterval(step_timer);
-                $(this).attr('src','img/p6_pic4.png');
+                $(this).siblings('img').attr('src','img/p6_pic4.png');
             })
             btn_xin.on('touchend',function(e) {
                 clearInterval(step_timer);
