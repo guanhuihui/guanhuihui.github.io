@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>哈哈镜便捷购</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <include file="Public/header" /><style type="text/css">.mod-trumpet{width: 100%;background: #EEFBE7;color: #9DD37B ;position: relative;height: 30px;line-height: 30px;}
+        .mod-trumpet img{position: absolute;width: 23px;height: 23px;left: 15px;top:3.5px;}
+        .message_s a{color: red;}</style>
+</head>
+<body onload="loaded()">
+    <div id="mod-container" class="mod-container clearfix">
+        <div id="mod-menu" class="mod-menu pageview" >
+        <header class="pub-header">
+            <a class="tap-action icon icon-back" href="/Index/index.html"></a>
+            <div class="header-content ui-ellipsis" id="ui-ellipsis">
+               
+            </div>
+            <div class="mens_details_nav" id="mens_details_nav2">
+            </div>
+        </header>
+        <div class="main main-both">
+            <div id="list-product" class="list-product iscroll-container" >
+                <div id="scrollers" class="scrollers" style="padding-top:10px;border-bottom:0px;">
+                    <ul class="scrollers_uls masonry clearfix" >
+                        <foreach name="goods_data" item="vo">
+                        <li class="picCon masonry-brick">
+                           <div>
+                              <a href="/App/detail/shop_id/{$vo.shop_id}/goods_id/{$vo.goods_id}" class="img">
+                                 <img class="image" src="{$vo.goods_pic}"  />
+                               </a>
+                             <div class="tou">
+                                 <div class="divP">
+                                    <h3 class="goods_info ui-ellipsis">{$vo.goods_name}<neq name="val.goods_pungent" value="">({$val.goods_pungent})</neq></h3>
+                                    <p class="goods_pre">
+                                        <eq name="vo.goods_stockout" value="1">
+                                        <span>补货中</span>
+                                    </eq></p>
+                                    <p class="goods_he">{$vo.goods_weight}
+                                        <neq name="vo.goods_unit" value="">
+                                        /{$vo.goods_unit}
+                                        </neq>
+                                    </p>
+                                    <p class="goods_price">￥{$vo.goods_price}</p>
+                                 </div>
+                                 <div class="divname">
+                                     <p>
+                                        <img src="__PUBLIC__/image/aname.png" alt="">
+                                        <span><a href="/Category/index/shop_id/{$vo.shop_id}">{$vo.shop_name}</a></span>
+                                     </p>
+                                 </div>
+                               </div>
+                            </div>
+                        </li>
+                        </foreach>
+                    </ul>
+                </div> 
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="Return-top">
+        <img src="__PUBLIC__/image/top_icon.png" alt="">
+    </div>
+<include file="Public/footer" />
+<script type="text/javascript">
+function loaded(){}
+    var myScrol0;
+        init();
+        iscrollAll();
+        clicks();
+        function init(){
+            $('.pageview').eq(0).show();
+            $('.Boxs>div').eq(0).show();
+            var W=$('#scroller li').length*95;
+            $('#scroller').css({'width':W+'px'});
+        }
+        function iscrollAll(){
+            myScrol0 = new IScroll('#list-product', {preventDefault: false,probeType: 3,mouseWheel: true,click: true,scrollbars: false});
+        }
+        function clicks(){
+            $('.Return-top').on(tapClick(),function(){
+                myScroll.scrollTo(0,0,500);
+            })
+        }         
+</script>
+</body>
+
+</html>

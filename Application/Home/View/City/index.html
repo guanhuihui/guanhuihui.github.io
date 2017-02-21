@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>哈哈镜便捷购</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+     <script type=text/javascript>
+        var docElement = document.documentElement;
+        var clientWidthValue = docElement.clientWidth > 480 ? 480 : docElement.clientWidth;
+        docElement.style.fontSize = 10*(clientWidthValue/320) + 'px';
+    </script>
+    <link rel="stylesheet" href="__PUBLIC__/css/index.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/phone_image.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-1.7.js" ></script>
+</head>
+<body>
+<div id="mod-container" class="mod-container mod-container-index clearfix">
+        <div id="mod-box" class="mod-box mod-select-city" >
+            <header class="head">
+                <div class="pub-header">
+                    <div class="list-main-five-html">
+                        <a class="tap-action icon icon-back" href="/Index/index.html"></a>
+                        <div class="header-content ui-ellipsis">
+                            <div>
+                                城市列表
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="divs"></div>
+            <div class="boxsk" style="padding-top:50px;">
+                <div id="list-product" class="list-product">
+                    <div class="inpt">
+                        <form action="" method="get" id="fetche-voucher-form">
+                            <div class="input-wrap">
+                                <input type="search" maxlength="11" id="user-phone" name="phone" autocomplete="off" placeholder="">
+                                <div class="input-text">
+                                  城市/拼音
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="hot-city">
+                        <h2>热门城市</h2>
+                        <ul>
+                            <foreach name="city_list_dat['host_city']" item="vo">
+                            <li class="item" data-city="{$vo['city_name']}" id="{$vo['city_id']}"><span>{$vo['city_name']}</span></li>
+                            </foreach>
+                        </ul>
+                    </div>
+                    <section id="_scroll" class="_scroll">
+                        <foreach name="city_list_dat_az" item="vo">
+                            <ul>
+                                <h2>{$key}</h2>
+                                <foreach name="vo" item="val">
+                                <li class="item" data-city="{$val.city_id}">{$val.city_name}</li>
+                                </foreach>
+                            </ul>
+                        </foreach>
+                    </section>
+                    
+                </div>
+            </div>
+        </div>
+</div>
+<div class="shu">
+    <foreach name="city_list_dat_az" item="vo">
+        <p>{$key}</p>
+    </foreach>
+</div>
+<div class="hide-city-main" id="hide-city-main">
+    <div class="scroller">
+        <div class="hide-city-btn">
+            <p class="qux">取消</p>
+            <p class="queren">确认</p>
+        </div>
+        <ul class="scroller hide-city-names">
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li>  
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li>
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li>  
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li> 
+            <li class="item-name"><span>全城</span></li> 
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="__PUBLIC__/js/layer.m/layer.m.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/zepto.min.js"></script>
+
+<script type="text/javascript">
+    $(function(){
+        var lens=$('.hide-city-names li').length*15.5,
+            atrr=[],
+            floor=$(".shu p"),
+            layout=$("._scroll ul");
+            clicks();
+            bindEvent();
+            function clicks(){
+                $('.hide-city-names').height(lens);
+                $('html,body').animate({scrollTop: 0},200);
+                for(var i=0; i<layout.length; i++){
+                 var  Top=layout.eq(i).offset().top-80;
+                 atrr.push(Top); 
+                };
+                $(window).scroll(function(){   
+                 var ones=atrr[0]
+                 if($(this).scrollTop()>=ones){
+                    $('.divs').show();
+                 }else{
+                    $('.divs').hide();
+                 };
+                 for(var j=0; j<atrr.length; j++){
+                     if($(this).scrollTop() >= atrr[j]-50){
+                         floor.eq(j).addClass("curr").siblings().removeClass("curr");
+                         $('.divs').html(floor.eq(j).text());
+                     };
+                 };
+                });
+                $(".shu p").bind('click',function(){
+                 var num2= atrr[$(this).index()]+25;
+                 $('html,body').animate({
+                    scrollTop: num2
+                 },200);
+                });
+                $('li.item').on('tap',function(){
+                 $('.hide-city,.hide-city-main').show();
+                 $("body").bind("touchmove", function (e) {e.preventDefault();});
+                  myScrol0 = new IScroll('#hide-city-main', {preventDefault: false,probeType: 3,mouseWheel: true,click: true,scrollbars: false});
+                 $('.qux').on('click',function(){
+                  $('.hide-city,.hide-city-main').hide();
+                  $("body").unbind('touchmove');
+                })
+                 $('.hide-city-names li').on('click',function(){
+                     var index=$(this).index();
+                     $('.hide-city-names li').find('span').removeClass('colos_y');
+                     $('.hide-city-names li').eq(index).find('span').addClass('colos_y')
+                 })
+                 $('.queren').on('click',function(){
+                     if($('.hide-city-names li').find('span').hasClass('colos_y')){
+                         location.href="index.html?name=index"
+                     }else{
+                         return false;
+                     }
+                 })
+                });
+            }
+            function bindEvent(){
+                document.querySelector('#user-phone').addEventListener('focus',function(){
+                   document.querySelector('.input-text').style.visibility='hidden';               
+                });
+                document.querySelector('#user-phone').addEventListener('blur',function(){
+                    if(this.value.length==0){
+                        document.querySelector('.input-text').style.visibility='visible';
+                   }else{
+                     document.querySelector('.input-text').style.visibility='hidden';
+                   }
+                });
+                $('.hot-city,._scroll').on("touchstart", function () {
+                     document.querySelector('#user-phone').addEventListener('blur');
+                });
+
+            }
+
+        });
+</script>
+</body>
+</html>

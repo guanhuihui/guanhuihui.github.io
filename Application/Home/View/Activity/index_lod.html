@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>哈哈镜一元凉面购买</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<link rel="stylesheet" href="__PUBLIC__/css/link.css">
+</head>
+<body>
+	<div class="wrap">
+		<form id="autocomplete-form" method="post" action="">
+			<div class="cart_boxs_head">
+		    	<p class="cart_head_store">
+		           	<a href="javascript:void(0);">
+		           	<img src="__PUBLIC__/image/home_icon.png" alt="">{$shop_data['shop_name']}
+		           	</a>
+		    	</p>
+		    </div>
+			<div class="enjoy-box">
+				<div class="enjoy-good-info enjoy-divs">
+					<div class="enjoy-info-cent icon_cen">
+						<dl class="dis disBox">
+					    	<dt class="dt">
+					    		<img src="__PUBLIC__/image/lm_Icon.jpg" alt="" onerror="this.src='http://www.hahajing.com/userfiles/shop_avatar/_default3.png?ddd'">
+					    	</dt>
+					    	<dd class="cart_boxs_info disBoxFlx">
+					            <h2 class="ui-ellipsis">哈哈镜凉面</h2>
+					             <p class="zens"><span>限购一份</span></p>
+					             <p class="info_price"><span class="info_price1">￥1.00</span><span class="info_price2"><s>原价：20.00</s></span></p>
+					         </dd>
+					    </dl>
+					</div>
+				    <div class="enjoy-info-right icon_right disBox">
+				        <input type="text" value="1份" name="text" class="goods_vals input" readonly="readonly">
+				    </div>
+				</div>
+			</div>
+			<div class="wrap_size">
+				<p class="size_p">请输入哈哈镜账号（即购买的手机号）</p>
+				<span class="size_span">购买成功可获得仅用2元购买凉面的优惠券</span>
+				<input type="tel" class="size_input styleinput" placeholder="请输入手机号"> 
+			</div>
+			<div class="wrap_price disBox">
+				<p class="wrap_prive_l disBoxFlx">总金额<span>共￥<b>1.00</b></span></p>
+				<p class="wrap_price_sub" id="btn">立即结算</p>
+			</div>
+			<div class="wrap_ts">请在现场工作人员面前支付有效</div>
+		</form>
+	</div>
+	<input type="hidden" name="shop_id" id="shop_id" value="{$shop_data['shop_id']}">
+	<input type="hidden" name="code" id="code" value="{$code}">
+	<input type="hidden" name="error_code" id="error_code" value="{$error_code}">
+	<input type="hidden" name="error_msg" id="error_msg" value="{$error_msg}">
+	<script type="text/javascript" src="__PUBLIC__/js/layer.m/layer.m.js"></script>
+	<script src="__PUBLIC__/js/lib/jquery-1.9.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/lib/jweixin.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/common.js"></script>
+	<script type="text/javascript">
+	var error_code = $('#error_code'),
+		error_msg = $('#error_msg'),
+		btn = $('#btn');
+		var url=window.location.href;
+		if(error_code.val() == '1'){
+			loaging.close();
+			loaging.btn(error_msg.val());
+			btn.addClass('btnHui');
+		}else{
+			btn.off('click');
+			btn.on('click',function(){
+				$('input').blur();
+				setTimeout(function(){
+					loaging.close();
+					loaging.init('请求中，请稍后...');
+				    var phones = $('.size_input').val(),
+				        myreg = /^1[3|4|5|7|8]\d{9}$/;
+				    if(!myreg.test(phones)){ 
+				        loaging.close();
+				        loaging.prompts('请输入有效的手机号码！');
+				        return false; 
+				    }
+				    var shop_id = $('#shop_id').val(),
+				    code = $('#code').val();
+				  	$.ajax({
+				  		url: '/Activity/order_add',
+				  		type: 'POST',
+				  		dataType: 'json',
+				  		data: {phone:phones,shop_id:shop_id,code:code},
+				  		success:function(re){
+				  			if(re.result == 'ok') {
+				  			/**************微信支付*****************/
+				  			if (re.pay_type=='10') {
+				  				
+			                	$.ajax({
+				                    url: '/Activity/weixin_order_date',
+				                    type: 'POST',
+				                    dataType: 'json',
+				                    data:{order_no:re.msg.order_no},
+				                    success:function(re){
+				                    	loaging.close();
+				                        function jsApiCall()
+				                        {
+				                          WeixinJSBridge.invoke(
+				                            'getBrandWCPayRequest',
+				                            re,
+				                            function(res){
+
+				                            	WeixinJSBridge.log(res.err_msg);
+				                            	// alert(res.err_code);
+				                            	// alert(res.err_desc);
+				                            	// alert(res.err_msg);
+				                            	if (res.err_msg == 'get_brand_wcpay_request:ok') {
+				                              		loaging.close();
+				                                	loaging.btn('支付成功');
+				                                	window.location.href = 'http://weixin.hahajing.com/Activity/order_ok?url='+url+'';
+				                            	}else{
+				                              		loaging.close();
+				                                	loaging.btn('支付失败,请在APP或者微信商城完成支付');
+				                            	}
+				                            }
+				                          );
+				                        }
+				                      callpay();
+				                      function callpay()
+				                      {
+				                        if (typeof WeixinJSBridge == "undefined"){
+				                            if( document.addEventListener ){
+				                                document.addEventListener('WeixinJSBridgeReady', jsApiCall, false);
+				                            }else if (document.attachEvent){
+				                                document.attachEvent('WeixinJSBridgeReady', jsApiCall); 
+				                                document.attachEvent('onWeixinJSBridgeReady', jsApiCall);
+				                            }
+				                        }else{
+				                            jsApiCall();
+				                        }
+				                      }
+			                    },error:function(){
+			                    	loaging.close();
+			                    }
+			                  })
+			                };
+				  			/**************支付结束******************/
+					  		}else{
+					  			loaging.close();
+			                	loaging.btn(re.msg);
+			              	}
+				  		},error:function(){
+				  			loaging.close();
+				  		}
+				  	})
+				},300);
+			})
+	}
+    weixins(url,"Activity");
+	</script>
+
+	<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?5e0cb2f41ce1f2862c5b34db3e387140";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<script>
+function onBridgeReady(){
+	WeixinJSBridge.call('hideOptionMenu');
+}
+if (typeof WeixinJSBridge == "undefined"){
+	if( document.addEventListener ){
+		document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+	}else if (document.attachEvent){
+		document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
+		document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+	}
+}else{
+	onBridgeReady();
+}
+</script>
+</body>
+</html>

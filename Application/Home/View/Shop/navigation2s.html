@@ -1,0 +1,71 @@
+		//
+                    $.ajax({
+                        url: 'http://api.map.baidu.com/direction/v1?mode=driving&origin='+user+'&destination='+shop+'&origin_region=北京&destination_region=北京&output=json&ak=wqBXfIN3HkpM1AHKWujjCdsi',
+                        type: 'GET',
+                        dataType: 'jsonp',
+                        success:function(re){
+                            loaging.close();
+                            if(re.status == 0){
+                                getlines();
+                            }
+                            console.log(re);
+                          /*  for(var k=0;k<re.result.routes[0].steps.length;k++){
+                                
+                            }*/
+                        },
+                        error:function(){
+                            loaging.close();
+                            console.log('失败');
+                        }
+                    })  
+                    map.clearOverlays();
+                    var arr=[    
+                           new BMap.Point(116.399, 39.910),    
+                           new BMap.Point(116.405, 39.920)    
+                         ];
+                        var polyline = new BMap.Polyline(arr,{strokeColor:"blue", strokeWeight:4, strokeOpacity:0.5});    
+                        map.addOverlay(polyline);
+
+
+
+
+    				/*$.ajax({
+    					url: 'http://api.map.baidu.com/direction/v1?mode=driving&origin=上地五街&destination=北京大学&origin_region=北京&destination_region=北京&output=json&ak=wqBXfIN3HkpM1AHKWujjCdsi',
+    					type: 'GET',
+    					dataType: 'jsonp',
+    					beforeSend:function(){
+    						loaging.init('加载中...');
+    					},
+    					success:function(data){
+    						loaging.close();
+                            console.log(data);
+    						for(var k=0;k<data.result.routes[0].steps.length;k++){
+    							
+ 	  						}
+    					},
+    					error:function(){
+    						loaging.close();
+    						console.log('失败');
+    					}
+    				})
+					var start = user;
+					var end = shop;
+					map.clearOverlays(); 
+					search(start,end,BMAP_DRIVING_POLICY_LEAST_TIME); 
+					function search(start,end,route){ 
+						var driving = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true},policy: route});
+						driving.search(start,end);
+					}*/
+                  /*  var routePolicy = [BMAP_DRIVING_POLICY_LEAST_TIME,BMAP_DRIVING_POLICY_LEAST_DISTANCE,BMAP_DRIVING_POLICY_AVOID_HIGHWAYS];
+                    search(user,shop,routePolicy[1]); 
+                    function search(start,end,route){ 
+                        var driving = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true},policy: route});
+                        driving.search(start,end);
+                    }
+
+                    */
+                 /*   var myP1 = new BMap.Point(user_x,user_y);    //起点
+                    var myP2 = new BMap.Point(shop_x,shop_y);    //终点
+
+                    var driving2 = new BMap.DrivingRoute(map, {renderOptions:{map: map, autoViewport: true}});    //驾车实例
+                    driving2.search(myP1, myP2);    //显示一条公交线路*/

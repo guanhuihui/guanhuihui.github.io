@@ -1,0 +1,2090 @@
+[ 2017-01-16T10:14:33+08:00 ] 192.168.0.80 /ActivityTwo/share_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.077010s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011502s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\ActivityTwoController.class.php 第 1207 行.
+
+[ 2017-01-16T10:14:34+08:00 ] 192.168.0.80 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T10:14:34+08:00 ] 192.168.0.80 /ActivityTwo/share_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\ActivityTwoController.class.php 第 1207 行.
+
+[ 2017-01-16T10:14:39+08:00 ] 192.168.0.80 /ActivityTwo/share_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\ActivityTwoController.class.php 第 1207 行.
+
+[ 2017-01-16T10:15:20+08:00 ] 192.168.0.80 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.025503s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.025503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.318041s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.318041s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010001s ]
+
+[ 2017-01-16T10:15:22+08:00 ] 192.168.0.80 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-16T10:15:55+08:00 ] 192.168.0.206 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:15:56+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-16T10:17:01+08:00 ] 192.168.0.206 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T10:17:02+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T10:18:30+08:00 ] 192.168.0.206 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:18:30+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:18:57+08:00 ] 192.168.0.206 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:18:58+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:19:31+08:00 ] 192.168.0.80 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T10:19:31+08:00 ] 192.168.0.80 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T10:19:34+08:00 ] 192.168.0.206 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T10:19:34+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T10:19:41+08:00 ] 192.168.0.206 /ActivityTwo/get_act_ticket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+
+[ 2017-01-16T10:21:00+08:00 ] 192.168.0.206 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 13 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:21:00+08:00 ] 192.168.0.206 /index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: mobile D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\UserController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-01-16T10:21:00+08:00 ] 192.168.0.206 /Checkcode/index?font_size=20&width=150&height=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T10:21:13+08:00 ] 192.168.0.206 /User/getmobile_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T10:22:03+08:00 ] 192.168.0.206 /index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+NOTIC: [8] Undefined index: mobile D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\UserController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T10:22:03+08:00 ] 192.168.0.206 /Checkcode/index?font_size=20&width=150&height=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:22:12+08:00 ] 192.168.0.206 /User/getmobile_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T10:23:30+08:00 ] 192.168.0.206 /user/loginuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\UserController.class.php 第 56 行.
+NOTIC: [8] Undefined variable: address_id D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\AddressController.class.php 第 470 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2017-01-16T10:23:31+08:00 ] 192.168.0.206 /index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [2] array_multisort(): Argument #1 is expected to be an array or a sort flag D:\xampp\htdocs\weixin_hhj\Application\Common\Common\function.php 第 191 行.
+NOTIC: [2] array_multisort(): Argument #1 is expected to be an array or a sort flag D:\xampp\htdocs\weixin_hhj\Application\Common\Common\function.php 第 191 行.
+NOTIC: [2] array_multisort(): Argument #1 is expected to be an array or a sort flag D:\xampp\htdocs\weixin_hhj\Application\Common\Common\function.php 第 191 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined index: user_current D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined index: city_province D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: city_province D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined variable: shop_love_shop D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: meiqia_data D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: url_type D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074009s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074009s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:23:31+08:00 ] 192.168.0.206 /index.php/Load/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 13 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:23:32+08:00 ] 192.168.0.206 /Index/getXY?x=116.43664399999993&y=39.946559074490935&district=%E5%8C%97%E4%BA%AC%E5%B8%82%E4%B8%9C%E5%9F%8E%E5%8C%BA%E4%B8%9C%E7%9B%B4%E9%97%A8%E5%86%85%E5%A4%A7%E8%A1%976%E5%8F%B7&city_id=131
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-16T10:23:32+08:00 ] 192.168.0.206 /Load/get_can_use
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:23:33+08:00 ] 192.168.0.206 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [2] array_multisort(): Argument #1 is expected to be an array or a sort flag D:\xampp\htdocs\weixin_hhj\Application\Common\Common\function.php 第 191 行.
+NOTIC: [2] array_multisort(): Argument #1 is expected to be an array or a sort flag D:\xampp\htdocs\weixin_hhj\Application\Common\Common\function.php 第 191 行.
+NOTIC: [2] array_multisort(): Argument #1 is expected to be an array or a sort flag D:\xampp\htdocs\weixin_hhj\Application\Common\Common\function.php 第 191 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: shop_love_shop D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: meiqia_data D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: url_type D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 80 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 93 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 99 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 110 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T10:23:34+08:00 ] 192.168.0.206 /min/index?f=/Public/js/lib/swiper.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] file_put_contents(/tmp/minify_swiper.min.js_573b58ff956987ff900a2f00099319f7): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 33 行.
+NOTIC: [2] fopen(/tmp/minify_swiper.min.js_573b58ff956987ff900a2f00099319f7): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 100 行.
+NOTIC: [2] unlink(/tmp/minify_swiper.min.js_573b58ff956987ff900a2f00099319f7): No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 38 行.
+NOTIC: [2] file_put_contents(/tmp/minify_swiper.min.js_573b58ff956987ff900a2f00099319f7.gz): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 33 行.
+NOTIC: [2] fopen(/tmp/minify_swiper.min.js_573b58ff956987ff900a2f00099319f7.gz): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 100 行.
+NOTIC: [2] unlink(/tmp/minify_swiper.min.js_573b58ff956987ff900a2f00099319f7.gz): No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 38 行.
+
+[ 2017-01-16T10:23:34+08:00 ] 192.168.0.206 /min/index?f=/Public/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2] file_put_contents(/tmp/minify_index.js_5c2c7098d8134c191d702a0d0e4d52d9): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 33 行.
+NOTIC: [2] fopen(/tmp/minify_index.js_5c2c7098d8134c191d702a0d0e4d52d9): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 100 行.
+NOTIC: [2] unlink(/tmp/minify_index.js_5c2c7098d8134c191d702a0d0e4d52d9): No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 38 行.
+NOTIC: [2] file_put_contents(/tmp/minify_index.js_5c2c7098d8134c191d702a0d0e4d52d9.gz): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 33 行.
+NOTIC: [2] fopen(/tmp/minify_index.js_5c2c7098d8134c191d702a0d0e4d52d9.gz): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 100 行.
+NOTIC: [2] unlink(/tmp/minify_index.js_5c2c7098d8134c191d702a0d0e4d52d9.gz): No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 38 行.
+
+[ 2017-01-16T10:23:34+08:00 ] 192.168.0.206 /Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: shop_id D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 9 行.
+NOTIC: [8] Undefined index: act_ticket D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined index: goods_ticket D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 11 行.
+NOTIC: [8] Undefined index: distribution D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: address_id D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\AddressController.class.php 第 470 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 111 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 116 行.
+NOTIC: [8] Undefined index: goods_list D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 106 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 106 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 116 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: shop_orderphone1 D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 67 行.
+NOTIC: [8] Undefined index: goods_list D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 267 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T10:23:34+08:00 ] 192.168.0.206 /index/get_user_xy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T10:23:35+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:23:35+08:00 ] 192.168.0.206 /index/get_untreated
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T10:23:38+08:00 ] 192.168.0.206 /me/app_html_all?url=http://weixin.hahajing.com/ActivityTwo/share_index/pid/1&name=%E4%BC%98%E6%83%A0%E6%B4%BB%E5%8A%A8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:24:21+08:00 ] 192.168.0.206 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T10:24:22+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:24:27+08:00 ] 192.168.0.206 /ActivityTwo/get_act_ticket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:24:33+08:00 ] 192.168.0.206 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 13 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-16T10:24:34+08:00 ] 192.168.0.206 /Index/getXY?x=116.43664699999992&y=39.946554074491324&district=%E5%8C%97%E4%BA%AC%E5%B8%82%E4%B8%9C%E5%9F%8E%E5%8C%BA%E4%B8%9C%E7%9B%B4%E9%97%A8%E5%86%85%E5%A4%A7%E8%A1%976%E5%8F%B7&city_id=131
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T10:24:34+08:00 ] 192.168.0.206 /Load/get_can_use
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:24:35+08:00 ] 192.168.0.206 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [2] array_multisort(): Argument #1 is expected to be an array or a sort flag D:\xampp\htdocs\weixin_hhj\Application\Common\Common\function.php 第 191 行.
+NOTIC: [2] array_multisort(): Argument #1 is expected to be an array or a sort flag D:\xampp\htdocs\weixin_hhj\Application\Common\Common\function.php 第 191 行.
+NOTIC: [2] array_multisort(): Argument #1 is expected to be an array or a sort flag D:\xampp\htdocs\weixin_hhj\Application\Common\Common\function.php 第 191 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: shop_love_shop D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: meiqia_data D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: url_type D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 80 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 93 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 99 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 110 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029503s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-16T10:24:35+08:00 ] 192.168.0.206 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:24:35+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:24:47+08:00 ] 192.168.0.206 /ActivityTwo/get_act_ticket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:28:36+08:00 ] 192.168.0.206 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:28:36+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:28:41+08:00 ] 192.168.0.206 /ActivityTwo/get_act_ticket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T10:28:46+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:29:07+08:00 ] 192.168.0.206 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:29:08+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2017-01-16T10:29:15+08:00 ] 192.168.0.206 /ActivityTwo/get_act_ticket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T10:29:21+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:29:33+08:00 ] 192.168.0.206 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:29:34+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:29:39+08:00 ] 192.168.0.206 /ActivityTwo/get_act_ticket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-16T10:30:57+08:00 ] 192.168.0.206 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:30:58+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-01-16T10:31:03+08:00 ] 192.168.0.206 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-16T10:31:03+08:00 ] 192.168.0.206 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T10:31:09+08:00 ] 192.168.0.206 /ActivityTwo/get_act_ticket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T11:00:31+08:00 ] 192.168.0.80 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.013502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.013502s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.008501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.009001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009502s ]
+
+[ 2017-01-16T11:00:31+08:00 ] 192.168.0.80 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-01-16T11:01:54+08:00 ] 192.168.0.80 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T11:01:54+08:00 ] 192.168.0.80 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T11:09:35+08:00 ] 192.168.0.80 /ActivityTwo/share_index/pid/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T11:09:35+08:00 ] 192.168.0.80 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T17:04:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.064509s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.028004s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.028004s ]
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 13 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.024503s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.024503s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.301038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.301538s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.007501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009501s ]
+
+[ 2017-01-16T17:04:38+08:00 ] 127.0.0.1 /index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: mobile D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\UserController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.059007s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.059007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:04:41+08:00 ] 127.0.0.1 /Checkcode/index?font_size=20&width=150&height=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T17:04:43+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T17:04:48+08:00 ] 127.0.0.1 /ActivityTwo/share_index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: pid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\ActivityTwoController.class.php 第 1207 行.
+
+[ 2017-01-16T17:05:05+08:00 ] 127.0.0.1 /ActivityTwo/share_index/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042506s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T17:05:06+08:00 ] 127.0.0.1 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:05:29+08:00 ] 127.0.0.1 /ActivityTwo/share_index/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.012001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.012501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.119515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.119515s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.037505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.024003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.024003s ]
+
+[ 2017-01-16T17:05:30+08:00 ] 127.0.0.1 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T17:05:34+08:00 ] 127.0.0.1 /ActivityTwo/get_act_ticket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:05:48+08:00 ] 127.0.0.1 /ActivityTwo/share_index/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.145518s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.146018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2017-01-16T17:05:49+08:00 ] 127.0.0.1 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T17:05:54+08:00 ] 127.0.0.1 /ActivityTwo/get_act_ticket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:06:05+08:00 ] 127.0.0.1 /ActivityTwo/share_index/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004501s ]
+
+[ 2017-01-16T17:06:06+08:00 ] 127.0.0.1 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:06:10+08:00 ] 127.0.0.1 /ActivityTwo/get_act_ticket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:06:50+08:00 ] 127.0.0.1 /ActivityTwo/share_index/pid/2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.158520s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.158520s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:06:51+08:00 ] 127.0.0.1 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:06:56+08:00 ] 127.0.0.1 /ActivityTwo/get_act_ticket
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-16T17:21:00+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 13 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.006501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003500s ]
+
+[ 2017-01-16T17:21:01+08:00 ] 127.0.0.1 /index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: mobile D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\UserController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:21:02+08:00 ] 127.0.0.1 /Checkcode/index?font_size=20&width=150&height=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-16T17:21:39+08:00 ] 127.0.0.1 /User/getmobile_code
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:21:55+08:00 ] 127.0.0.1 /user/loginuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\UserController.class.php 第 56 行.
+NOTIC: [8] Undefined variable: address_id D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\AddressController.class.php 第 470 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T17:21:56+08:00 ] 127.0.0.1 /index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined index: user_current D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined index: city_province D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: city_province D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined variable: shop_love_shop D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: meiqia_data D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined index: url_type D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.113514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.113514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005501s ]
+
+[ 2017-01-16T17:21:56+08:00 ] 127.0.0.1 /index.php/Load/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 13 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:22:05+08:00 ] 127.0.0.1 /Index/getXY?x=114.41586754999993&y=43.46823828510817&district=%E9%94%A1%E6%9E%97%E9%83%AD%E5%8B%92%E7%9B%9F%E8%8B%8F%E5%B0%BC%E7%89%B9%E5%B7%A6%E6%97%97&city_id=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-01-16T17:22:05+08:00 ] 127.0.0.1 /Load/get_can_use
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:22:06+08:00 ] 127.0.0.1 /Coupon/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CommonController.class.php 第 58 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.172522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.173022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T17:22:09+08:00 ] 127.0.0.1 /Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: shop_love_shop D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: meiqia_data D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: url_type D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 80 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 93 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 99 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 110 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-16T17:22:10+08:00 ] 127.0.0.1 /min/index?f=/Public/js/lib/swiper.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] file_put_contents(/tmp/minify_swiper.min.js_573b58ff956987ff900a2f00099319f7): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 33 行.
+NOTIC: [2] fopen(/tmp/minify_swiper.min.js_573b58ff956987ff900a2f00099319f7): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 100 行.
+NOTIC: [2] unlink(/tmp/minify_swiper.min.js_573b58ff956987ff900a2f00099319f7): No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 38 行.
+NOTIC: [2] file_put_contents(/tmp/minify_swiper.min.js_573b58ff956987ff900a2f00099319f7.gz): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 33 行.
+NOTIC: [2] fopen(/tmp/minify_swiper.min.js_573b58ff956987ff900a2f00099319f7.gz): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 100 行.
+NOTIC: [2] unlink(/tmp/minify_swiper.min.js_573b58ff956987ff900a2f00099319f7.gz): No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 38 行.
+
+[ 2017-01-16T17:22:11+08:00 ] 127.0.0.1 /min/index?f=/Public/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004501s ]
+NOTIC: [2] file_put_contents(/tmp/minify_index.js_5c2c7098d8134c191d702a0d0e4d52d9): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 33 行.
+NOTIC: [2] fopen(/tmp/minify_index.js_5c2c7098d8134c191d702a0d0e4d52d9): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 100 行.
+NOTIC: [2] unlink(/tmp/minify_index.js_5c2c7098d8134c191d702a0d0e4d52d9): No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 38 行.
+NOTIC: [2] file_put_contents(/tmp/minify_index.js_5c2c7098d8134c191d702a0d0e4d52d9.gz): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 33 行.
+NOTIC: [2] fopen(/tmp/minify_index.js_5c2c7098d8134c191d702a0d0e4d52d9.gz): failed to open stream: No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 100 行.
+NOTIC: [2] unlink(/tmp/minify_index.js_5c2c7098d8134c191d702a0d0e4d52d9.gz): No such file or directory D:\xampp\htdocs\weixin_hhj\ThinkPHP\Library\Vendor\minify\lib\Minify\Cache\File.php 第 38 行.
+
+[ 2017-01-16T17:22:11+08:00 ] 127.0.0.1 /Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: shop_id D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 9 行.
+NOTIC: [8] Undefined index: act_ticket D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined index: goods_ticket D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 11 行.
+NOTIC: [8] Undefined index: distribution D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: address_id D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\AddressController.class.php 第 470 行.
+NOTIC: [8] Undefined index: goods_list D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 106 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 106 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 116 行.
+NOTIC: [8] Undefined index: goods_list D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 106 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 106 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 116 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: shop_orderphone1 D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 67 行.
+NOTIC: [8] Undefined index: goods_list D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 120 行.
+NOTIC: [8] Undefined index: goods_list D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 267 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.143018s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.143018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T17:22:11+08:00 ] 127.0.0.1 /min/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+ERR: 非法操作:maps
+
+[ 2017-01-16T17:22:12+08:00 ] 127.0.0.1 /index/get_user_xy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T17:22:12+08:00 ] 127.0.0.1 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-16T17:22:12+08:00 ] 127.0.0.1 /index/get_untreated
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T18:32:34+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 13 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T18:32:34+08:00 ] 127.0.0.1 /index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: mobile D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\UserController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T18:32:34+08:00 ] 127.0.0.1 /Checkcode/index?font_size=20&width=150&height=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T18:32:34+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T18:32:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 13 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T18:32:39+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 13 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T18:32:39+08:00 ] 127.0.0.1 /index.php/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: mobile D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\UserController.class.php 第 28 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T18:32:39+08:00 ] 127.0.0.1 /Checkcode/index?font_size=20&width=150&height=40
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-01-16T18:33:06+08:00 ] 127.0.0.1 /user/loginuser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\UserController.class.php 第 56 行.
+NOTIC: [8] Undefined variable: address_id D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\AddressController.class.php 第 470 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T18:33:07+08:00 ] 127.0.0.1 /index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined index: user_current D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 64 行.
+NOTIC: [8] Undefined index: city_province D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 68 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined index: city_province D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 70 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 96 行.
+NOTIC: [8] Undefined variable: shop_love_shop D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: meiqia_data D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: url_type D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 80 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038505s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-16T18:33:07+08:00 ] 127.0.0.1 /index.php/Load/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined index: code D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 13 行.
+NOTIC: [8] Undefined index: state D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 14 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\LoadController.class.php 第 15 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-01-16T18:33:15+08:00 ] 127.0.0.1 /Index/getXY?x=116.40387396999994&y=39.91488915704603&district=%E5%8C%97%E4%BA%AC%E5%B8%82%E4%B8%9C%E5%9F%8E%E5%8C%BA%E4%B8%AD%E5%8D%8E%E8%B7%AF%E7%94%B210%E5%8F%B7&city_id=131
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-01-16T18:33:15+08:00 ] 127.0.0.1 /Load/get_can_use
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T18:33:16+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 280 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CategoryController.class.php 第 329 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: uid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: token D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 547 行.
+NOTIC: [8] Undefined variable: shop_love_shop D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 78 行.
+NOTIC: [8] Undefined variable: meiqia_data D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 86 行.
+NOTIC: [8] Undefined index: openid D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\IndexController.class.php 第 88 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: url_type D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 80 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 93 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 99 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 102 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 107 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 110 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+NOTIC: [8] Undefined index: alert D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 120 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2017-01-16T18:33:16+08:00 ] 127.0.0.1 /min/index?f=/Public/js/index.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T18:33:16+08:00 ] 127.0.0.1 /min/index?f=/Public/js/lib/swiper.min.js
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-01-16T18:33:17+08:00 ] 127.0.0.1 /Cart/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: shop_id D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 9 行.
+NOTIC: [8] Undefined index: act_ticket D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 10 行.
+NOTIC: [8] Undefined index: goods_ticket D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 11 行.
+NOTIC: [8] Undefined index: distribution D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 12 行.
+NOTIC: [8] Undefined variable: address_id D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\AddressController.class.php 第 470 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 111 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 116 行.
+NOTIC: [8] Undefined index: goods_list D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 106 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 106 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\xampp\htdocs\weixin_hhj\Application\Home\Controller\CartController.class.php 第 116 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000501s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined index: shop_orderphone1 D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 67 行.
+NOTIC: [8] Undefined index: goods_list D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 267 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 438 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 440 行.
+NOTIC: [8] Undefined index: city_baiducode D:\xampp\htdocs\weixin_hhj\Application\Runtime\Cache\Home\6f105010063b4e4da2af04cb5dd2d5a4.php 第 442 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.109514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.110514s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004001s ]
+
+[ 2017-01-16T18:33:17+08:00 ] 127.0.0.1 /Sample/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-01-16T18:33:17+08:00 ] 127.0.0.1 /index/get_user_xy
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-01-16T18:33:17+08:00 ] 127.0.0.1 /min/maps/swiper.min.js.map
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:maps
+
+[ 2017-01-16T18:33:18+08:00 ] 127.0.0.1 /index/get_untreated
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

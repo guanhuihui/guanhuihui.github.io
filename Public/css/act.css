@@ -1,0 +1,110 @@
+.act-html,.act-html body,.act-html .mod-container .pageview{
+	background:#fff;
+}
+.home-cat .act_title{
+	background: #fff;
+	text-align: center;
+}
+.home-cat .act_title .Imgs{
+	width: 75%;
+	padding: 0.7rem 0;
+}
+.home-cat .home-act .scroller{
+	background: #fff;
+/*	padding-bottom: 25px;*/
+}
+.home-cat .act_menu{
+	padding: 0 0.7rem;	
+}
+.home-cat .act_lis{
+	float: left;
+	width: 48.6%;	
+	border:1px solid #BEBEBE;
+	margin-top: 0.6rem;
+	position: relative;
+	height: 22.2rem;
+}
+.home-cat .act_lis:nth-child(odd){
+/*	margin-right: 0.8%;*/
+	float: left;
+}
+.home-cat .act_lis:nth-child(even){
+/*	margin-left: 0.8%;*/
+	float: right;
+}
+.home-cat .act_lis .Imgs{
+	width: 100%;
+}
+.home-cat .product-meta-wrap{
+	padding: 0 0.6rem 1rem 0.6rem;
+	position: relative;
+}
+.home-cat .product-meta-wrap .product-name{
+	font-size: 0.95rem;
+	color: #121212;
+}
+.home-cat .product-meta-wrap .product-yuan{
+	font-size: 0.85rem;
+	color: #939393;
+	line-height: 2rem;
+}
+.home-cat .product-meta-wrap .product-price{
+	font-size: 0.95rem;
+	color: #F23B1C;
+}
+.home-cat .product-meta-wrap .product-span{
+	float: right;
+	display: inline-block;
+	padding:2px 10px;
+	background: #F23B1C;
+	color: #FFF;
+	border-radius: 5px;
+	letter-spacing: 2px;
+	font-size: 1.1rem;
+	margin-top: -5px;
+}
+.home-cat .act_contact{
+	margin: 1.6rem 2.3rem 0 2.3rem;
+	background: url(/Public/image/act/a_bgline.png) no-repeat;
+	background-size: 100% 100%;
+	padding:1.2rem 1.7rem;
+	color: #121212;
+	font-size: 0.95rem;
+}
+.home-cat .act_contact .contact_title{
+	font-size: 1.35rem;
+	font-weight: 700;
+	text-align: center;
+	line-height: 2.2rem;
+}
+.home-cat .act_contact .contact_div_p{
+	padding-top: 0.3rem;
+}
+.home-cat .act_contact .sp{
+	display: block;
+	width:30%;
+}
+.home-cat .act_contact .s_z{
+	font-size: 0.6rem;
+}
+.home-cat .act_contact .sa{
+	text-decoration: underline;
+}
+/*iPhone < 5:*/
+@media screen and (device-aspect-ratio: 2/3) {
+	.home-cat .act_lis{
+		height: 20rem;
+	}
+}
+/*iPhone 5:*/
+@media screen and (device-aspect-ratio: 40/71) {
+	.home-cat .act_lis{
+		height: 20rem;
+	}
+}
+/*iPhone 6:*/
+@media screen and (device-aspect-ratio: 667/375) {}
+/*iPhone 6Plus:*/
+@media screen and (device-aspect-ratio: 16/9) {}
+/*iPad:*/
+@media screen and (device-aspect-ratio: 3/4) {}

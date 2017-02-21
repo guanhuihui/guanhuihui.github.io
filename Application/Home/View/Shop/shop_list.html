@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>哈哈镜便捷购</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+  <include file="Public/header" />
+</head>
+<body  onload="loaded()">
+    <div id="mod-container" class="mod-container clearfix">
+        <div id="mod-box" class="mod-box" >
+            <header class="pub-header">
+                <a class="tap-action icon icon-back" href="/Index/index.html"></a>
+                <div class="list-main-two-html">
+                    <div class="header-content ui-ellipsis">
+                        店铺列表
+                    </div>
+                    <a class="icon header-right tap-action" href="/City/index.html">
+                        <div><span>北京</span>▼</div>
+                    </a>
+                    <ul class="main_list_ol" id="main_list_ol">
+                        <li><a href="javascript:void(0);"><img class="main_list_ol_img" src="__PUBLIC__/image/hou_icon.png" alt="">vip 网店</a></li>
+                        <li><a href="javascript:void(0);"><img class="main_list_ol_img" src="__PUBLIC__/image/hou_icon.png" alt="">网店</a></li>
+                        <li><a href="javascript:void(0);"><img class="main_list_ol_img" src="__PUBLIC__/image/hou_icon.png" alt="">代售</a></li>
+                    </ul>
+                </div>
+            </header>
+            <div class="main main-both">
+                <div id="list-product" class="list-product">
+                    <div class="list-main">
+                        <!--start-->
+                        <div class="list-main-two" id="list-main-two">
+                            <div id="scrollers" class="scrollers">
+                                <div id="pullDown" class="ub ub-pc c-gra">
+                                    <div class="pullDownIcon"></div>
+                                    <div class="pullDownLabel">下拉刷新</div>
+                                </div>
+                                <ul id="adds" class="list-product-Lis">
+                                    <li>
+                                        <div class="product-item product-item-p">
+                                            <div class="product-item-img">
+                                                <a href="/Category/index.html"><img class="image" data-original="__PUBLIC__/image/z.png" src="__PUBLIC__/image/grey.gif" alt=""></a>
+                                            </div>
+                                            <div class="product-item_infos ui-ellipsis">
+                                                <span><a href="/Category/index.html"><b class="red">VIP网店</b>惠尔佳超市</a></span>
+                                                <div class="infos">
+                                                    <div>
+                                                        <p>联系电话&nbsp;<a href="tel:18911491054">18911491054</a></p>
+                                                        <p>正常营业&nbsp;9:00-24:00</p>
+                                                        <p>已售&nbsp;87</p>
+                                                    </div>
+                                                    <div style="">
+                                                        <p><a href="tel:010-847655651">010-847655651</a></p>
+                                                        <p>配送时间&nbsp;9:00-24:00</p>
+                                                        <p>配送费&nbsp;10元</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-item_mis">
+                                                <p><img src="__PUBLIC__/image/location_icon_b.png" alt="">807m</p>
+                                                <p>50元起送</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="product-item product-item-p">
+                                            <div class="product-item-img">
+                                                <a href="/Category/index.html"><img class="image" data-original="__PUBLIC__/image/z.png" src="__PUBLIC__/image/grey.gif" alt=""></a>
+                                            </div>
+                                            <div class="product-item_infos ui-ellipsis">
+                                                <span><a href="/Category/index.html"><b class="greens">网&nbsp;&nbsp;店</b>惠尔佳超市</a></span>
+                                                <div class="infos">
+                                                    <div>
+                                                        <p>联系电话&nbsp;<a href="tel:18911491054">18911491054</a></p>
+                                                        <p>正常营业&nbsp;9:00-24:00</p>
+                                                        <p>已售&nbsp;87</p>
+                                                    </div>
+                                                    <div style="">
+                                                        <p><a href="tel:010-847655651">010-847655651</a></p>
+                                                        <p>配送时间&nbsp;9:00-24:00</p>
+                                                        <p>配送费&nbsp;10元</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-item_mis">
+                                                <p><img src="__PUBLIC__/image/location_icon_b.png" alt="">807m</p>
+                                                <p>50元起送</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="product-item product-item-t">
+                                            <div class="product-item-img">
+                                                <a href="/Category/index.html"><img class="image" data-original="__PUBLIC__/image/z.png" src="__PUBLIC__/image/grey.gif" alt=""></a>
+                                            </div>
+                                            <div class="product-item_infos ui-ellipsis">
+                                                <span><a href="/Category/index.html"><b class="greens_s">代&nbsp;&nbsp;售</b>惠尔佳超市</a></span>
+                                                <div class="infos">
+                                                    <div>
+                                                        <p>联系电话&nbsp;<a href="tel:18911491054">18911491054</a><a href="tel:18911491054">18911491054</a></p>
+                                                        <p>正常营业&nbsp;9:00-24:00</p>
+                                                        <p class="dels">地址&nbsp;东直门内大街东直门内大街东直门内大街东直门内大街</p>
+                                                        <p class="ps_next">代售点仅支持到店购买</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-item_mis">
+                                                <p><img src="__PUBLIC__/image/location_icon_b.png" alt="">807m</p>
+                                                <p><img src="__PUBLIC__/image/position_icon.png" alt=""></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="product-item product-item-p">
+                                            <div class="product-item-img">
+                                                <a href="/Category/index.html"><img class="image" data-original="__PUBLIC__/image/z.png" src="__PUBLIC__/image/grey.gif" alt=""></a>
+                                            </div>
+                                            <div class="product-item_infos ui-ellipsis">
+                                                <span><a href="/Category/index.html"><b class="red">VIP网店</b>惠尔佳超市</a></span>
+                                                <div class="infos">
+                                                    <div>
+                                                        <p>联系电话&nbsp;<a href="tel:18911491054">18911491054</a></p>
+                                                        <p>正常营业&nbsp;9:00-24:00</p>
+                                                        <p>已售&nbsp;87</p>
+                                                    </div>
+                                                    <div style="">
+                                                        <p><a href="tel:010-847655651">010-847655651</a></p>
+                                                        <p>配送时间&nbsp;9:00-24:00</p>
+                                                        <p>配送费&nbsp;10元</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-item_mis">
+                                                <p><img src="__PUBLIC__/image/location_icon_b.png" alt="">807m</p>
+                                                <p>50元起送</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="product-item product-item-p">
+                                            <div class="product-item-img">
+                                                <a href="/Category/index.html"><img class="image" data-original="__PUBLIC__/image/z.png" src="__PUBLIC__/image/grey.gif" alt=""></a>
+                                            </div>
+                                            <div class="product-item_infos ui-ellipsis">
+                                                <span><a href="/Category/index.html"><b class="greens">网&nbsp;&nbsp;店</b>惠尔佳超市</a></span>
+                                                <div class="infos">
+                                                    <div>
+                                                        <p>联系电话&nbsp;<a href="tel:18911491054">18911491054</a></p>
+                                                        <p>正常营业&nbsp;9:00-24:00</p>
+                                                        <p>已售&nbsp;87</p>
+                                                    </div>
+                                                    <div style="">
+                                                        <p><a href="tel:010-847655651">010-847655651</a></p>
+                                                        <p>配送时间&nbsp;9:00-24:00</p>
+                                                        <p>配送费&nbsp;10元</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-item_mis">
+                                                <p><img src="__PUBLIC__/image/location_icon_b.png" alt="">807m</p>
+                                                <p>50元起送</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="product-item product-item-t">
+                                            <div class="product-item-img">
+                                                <a href="/Category/index.html"><img class="image" data-original="__PUBLIC__/image/z.png" src="__PUBLIC__/image/grey.gif" alt=""></a>
+                                            </div>
+                                            <div class="product-item_infos ui-ellipsis">
+                                                <span><a href="/Category/index.html"><b class="greens_s">代&nbsp;&nbsp;售</b>惠尔佳超市</a></span>
+                                                <div class="infos">
+                                                    <div>
+                                                        <p>联系电话&nbsp;<a href="tel:18911491054">18911491054</a><a href="tel:18911491054">18911491054</a></p>
+                                                        <p>正常营业&nbsp;9:00-24:00</p>
+                                                        <p class="dels">地址&nbsp;东直门内大街东直门内大街东直门内大街东直门内大街</p>
+                                                        <p class="ps_next">代售点仅支持到店购买</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="product-item_mis">
+                                                <p><img src="__PUBLIC__/image/location_icon_b.png" alt="">807m</p>
+                                                <p><img src="__PUBLIC__/image/position_icon.png" alt=""></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                                <div id="pullUp" class="ub ub-pc c-gra">
+                                    <div class="pullUpIcon"></div>
+                                    <div class="pullUpLabel">上拉显示更多...</div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--end-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <div id="allmap"></div>
+<include file="Public/footer" />
+<script type="text/javascript" src="__PUBLIC__/js/index.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+        init();
+        upDown();
+        returnBth();
+        function init(){
+            $('.mod-mask').hide();
+            $('.list-main>div').eq(0).show();   
+            $('.pub-header>div').eq(0).show(); 
+            $('.main_list_ol li').eq(0).addClass('Borders');
+            $('.main_list_ol li').eq(0).find('img').attr('src','__PUBLIC__/image/hou_icon2.png');
+            loaging.init('加载中...');
+        }
+        function returnBth(){
+            $('.icon-back').on(tapClick(),function(){
+                $('input,textarea').blur();
+                var parentName=$(this).parents('div').attr('class');
+                if(parentName.indexOf('list-main-two-html')>-1){
+                   location.href="index.html";
+                }else{
+                   return;  
+                }   
+            })
+        }
+    })
+    function loaded(){
+        loaging.close();
+    } 
+</script>
+</body>
+
+</html>

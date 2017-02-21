@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>哈哈镜便捷购</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <include file="Public/header"/><style type="text/css">.sizes{color: #333333;}.sizes h2{font-size: 15px;}</style>
+</head>
+<body>
+    <div id="mod-container" class="mod-container clearfix">
+        <div id="mod-set-index" class="mod-set-index pageview" >
+            <header class="pub-header">
+                <span class="tap-action icon icon-back">
+                </span>
+                <div class="header-content">
+                    设置
+                </div>
+            </header>
+            <div class="main main-both">
+                <div id="set-index-product" class="set-index-product">
+                    <p class="set-index-r">关于我们</p>
+                    <eq name="openid" value="">
+                    <div class="set-index-btn">
+                        <a href="javascript:void(0);">退出当前账户</a>
+                    </div>
+                    </eq>
+                </div>
+            </div>
+        </div>
+         <div id="mod-set" class="mod-set pageview">
+            <header class="pub-header">
+                <span class="tap-action icon icon-back">
+                </span>
+                <div class="header-content">
+                    关于哈哈镜
+                </div>
+            </header>
+            <div class="main main-both">
+                <div id="set-product" class="set-product">
+                    <div class="set-main ">
+                        <div>
+                            <img src="__PUBLIC__/image/app_logo.png" alt="">
+                            <p>哈哈镜宅急送</p>
+                            <p>版本 7.04</p>
+                        </div>
+                        <p><img src="__PUBLIC__/image/wechat_logo.png" alt="">微信:hhj_weixinmp</p>
+                    </div>
+                    <p>北京哈哈镜电子商务有眼公司</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+ <div id="allmap"></div>
+<include file="Public/footer" />
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('.mod-set-index').show();
+        clicks();
+        returnBth();
+        function clicks(){
+            $('.set-index-r').on(tapClick(),function(){
+                $('.mod-set').show().siblings().hide();
+            })
+             $('.set-index-btn').on(tapClick(),function(){
+                prompt('您确定要退出当前账号吗?','.set-index-btn')
+            })
+        }
+        function prompt(txt,divs){
+            var index=layer.open({
+                content:'<div class="sizes"><h2>温馨提示</h2><p>'+txt+'</p></div>',
+                style: 'width:100%;border:none;text-align:center;margin-top:-20%;color:#299ADE;line-height:40px;',
+                shadeClose: false,
+                btn: ['确定','取消'],
+                yes: function(){
+                    if(divs=='.set-index-btn'){
+                        commoms.post_servers('/User/logout',{},function(data){
+                            loaging.close();
+                            if (data.result='ok') {
+                                location.href='/index/index'
+                            }
+                        },function(){
+                            loaging.close();
+                        },false);
+                    }
+                }
+            });
+        }
+        function returnBth(){
+            $('.icon-back').on(tapClick(),function(){
+                $('input,textarea').blur();
+                var parentName=$(this).parents('div').attr('class');
+                if(parentName.indexOf('mod-set-index')>-1){
+                   location.href="/Index/index.html";
+                }else if(parentName.indexOf('mod-set')>-1){
+                   $('.mod-set-index').show().siblings().hide();
+                } 
+            })
+        }
+    })
+</script>
+</body>
+
+</html>

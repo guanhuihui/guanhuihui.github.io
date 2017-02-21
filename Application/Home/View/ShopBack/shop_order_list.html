@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="renderer" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://101.200.180.100:9005/public/simpleboot/themes/flat/theme.min.css" rel="stylesheet">
+    <link href="http://101.200.180.100:9005/public/simpleboot/css/simplebootadmin.css" rel="stylesheet">
+    <link href="http://101.200.180.100:9005/public/js/artDialog/skins/default.css" rel="stylesheet" />
+    <link href="http://101.200.180.100:9005/public/simpleboot/font-awesome/4.4.0/css/font-awesome.min.css"  rel="stylesheet" type="text/css">
+    <style type="text/css">
+		.search{border-bottom: solid #eee 2px;font-size:16px;height:45px;}
+		.search .js-datetime{float:left;display:block;margin-right:15px;}
+		.search .btn{float:left;display:block;}
+		.pagination a,.pagination span{display: inline-block;width: 30px;height: 30px;text-align: center;line-height: 30px;border:1px solid #ddd;margin-right: 10px;}
+    </style>
+    <script type="text/javascript">
+	//全局变量
+	var GV = {
+	    DIMAUB: "http://101.200.180.100:9005/",
+	    JS_ROOT: "public/js/",
+	    TOKEN: ""
+	};
+	</script>
+
+	<script src="http://101.200.180.100:9005/public/js/jquery.js"></script>
+    <script src="http://101.200.180.100:9005/public/js/wind.js"></script>
+    <script src="http://101.200.180.100:9005/public/simpleboot/bootstrap/js/bootstrap.min.js"></script>
+    <style type="text/css">.inputs,.spans{float: left;line-height: 40px; }</style>
+</head>
+
+<body>
+
+	<div class="wrap js-check-wrap">
+
+		<form class="js-ajax-form" action="" method="post">
+				<table class="table table-hover table-lis">
+					<thead>
+						<tr>
+							<th width="50">订单编号</th>
+				            <th width="50">金额</th>
+				            <th width="50">确认收货时间</th>
+				            <th width="50">是否算入提现</th>
+						</tr>
+					</thead>
+					<foreach name="order_data" item="vo">
+					<tr>
+					<td>{$vo.order_no}</td>
+					<td>{$vo.fee}</td>
+					<td>{$vo.confirm_time|substr=0,10|date='Y-m-d H:i:s',###}</td>
+					<td><if condition="$vo.is_complete eq '1'">是<else/>否</if></td>
+				</tr>
+                    </foreach>
+				</table>
+				<div class="form-actions">
+					
+				</div>
+				<div class="pagination">{$page}</div>
+			</form>
+		</div>
+
+		<script src="http://101.200.180.100:9005/public/js/common.js"></script>
+		<script type="text/javascript">
+		function get_daochu_url(){
+			var start_time=$('#start_time').val();
+			var end_time=$('#end_time').val();
+			if (start_time == '' || end_time=='') {
+				alert('请选择时间');
+				return false;
+			}else{
+				var url="/home/OrderConfirmLog/download_data?starttime="+ start_time + "&endtime=" + end_time;
+				window.open(url);
+			}
+		}
+		</script>
+</body>
+</html>

@@ -1,0 +1,432 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>哈哈镜</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <include file="Public/header" />
+    <script type="text/javascript">
+       /*window.addEventListener('load', function() {FastClick.attach(document.body);}, false);  */
+    </script>
+<body>
+    <div id="mod-container" class="mod-container clearfix" >
+        <div id="mod-custom" class="mod-custom modcity-list pageview">
+            <header class="pub-header bgss">
+                <a class="tap-action icon icon-back" href="javascript:history.go(-1);"></a>
+                <div class="header-content">
+                	<form action="" method="post" name="FrmSearch" target="_self" id="FrmSearch" onsubmit="return checkSubmit()" >
+    	            	<p class="head-Inp"><input type="search"  id="searchs" name="search" class="styleinput" placeholder="写字楼、小区、学校、街道"></p>
+    	            </form>
+                </div>
+                <a class="header-right" href="javascript:void(0);">
+                	<img src="__PUBLIC__/image/icon-d.png" alt="">
+                	<span class="ui-ellipsis"></span>
+                </a>
+            </header>
+            <div class="main main-top" style="overflow: hidden;top:50px;" id="mod-custom-box">
+                <div class="scrollers">
+                	<div class="scrollers_box">
+                	</div>
+                </div>
+            </div>
+        </div>
+        <div class="adds_selection pageview mod-select-city" id="adds_selection" style="z-index:9999999;">
+	    	<header class="pub-header  bgss">
+                <span class="tap-action icon icon-back">
+                </span>
+                <div class="header-content" style="line-height:30px;">
+                    选择地址
+                </div>
+                <a class="header-right header-right-text" href="/Address/add.html">
+                	+新建
+                </a>
+            </header>
+	    	<div id="adds_selections" class="main main-top" style="overflow: hidden;">
+                <div class="scrollers hideBoxs" id="addselect_mins">
+                	<div class="_scroll">
+            		<foreach name="city_list_dat" item="vo">
+                        <ul>
+                            <h2>{$key}</h2>
+                            <foreach name="vo" item="val">
+                            <li class="item" data-city="{$val.city_id}" baidu-code="{$val.city_baiducode}">{$val.city_name}</li>
+                            </foreach>
+                        </ul>
+                    </foreach>
+                    </div>      
+	    		</div>
+	    	</div>
+	    </div>
+    </div>
+    <input type="hidden" name="hidden" id="code" value="">
+<include file="Public/footer" />
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=wqBXfIN3HkpM1AHKWujjCdsi"></script> 
+<script type="text/javascript">
+   	$('.mod-custom').show();
+   	var myScroll,myScrol2,
+   		cityName=GetQueryString('cityName'),
+   		cityCode=GetQueryString('cityCode'),
+   		address_id=GetQueryString('address_id'),
+   		address=GetQueryString('address'),
+    	name=GetQueryString('name'),
+    	mobile=GetQueryString('mobile'),
+    	headcon = $('.header-content'),
+		headspan = $('.header-right span'),
+		addsection =  $('#adds_selection');
+	$(document).ready(function() {
+		init();
+		returnBth();
+		iscrollAll();
+		function init(){
+			if(GetQueryString('cityName')){
+				cityName = GetQueryString('cityName'); 
+				headspan.html(cityName);
+			}else{
+				headspan.html('请选择城市');
+			}
+			
+			myScroll = new IScroll('#mod-custom-box', {probeType: 3,mouseWheel: true,click: true,scrollbars: false});
+		}
+		function iscrollAll(){
+			var list={probeType: 3,mouseWheel: true,click: true,scrollbars: false};
+			myScroll = new IScroll('#mod-custom-box',list); 
+			myScrol2 = new IScroll('#adds_selections',list); 
+		}
+		 function returnBth(){
+	        $('.icon-back').on(tapClick(),function(){
+	            $('input,textarea').blur();
+	            var parentName=$(this).parents('div').attr('class');
+	            if(parentName.indexOf('adds_selection')>-1){
+	               addsection.hide();
+	               iscrollAll();
+	            }  
+	        })
+	    }  
+	    $('.mod-custom .header-right').on('click',function(){
+	   		addsection.show();
+	   		iscrollAll();
+	   	})
+	   	$('._scroll .item').on(tapClick(),function(){
+	   		var txt = $(this).text(),
+                code = $(this).attr('baidu-code');
+                if(code){
+                    $('#code').val(code);
+                }
+	   		addsection.hide();
+	        iscrollAll();
+	   		headspan.text(txt);
+	   	})	   	
+	})
+	function checkSubmit(){
+			$('#searchs').blur();
+	        var result=false,
+	       		$searchs=$('#searchs').val(),
+	       		txt = $('.header-right span').text();
+	       		if(txt == '请选择城市'){
+	       			loaging.prompts('请点击选择城市');
+	       			return false;
+	       		}
+	       		if($searchs == '' || $searchs == null){
+	       			return false;
+	       		}
+				$.ajax({
+		            url: 'http://api.map.baidu.com/place/v2/search?query='+$searchs+'&page_size=15&page_num=0&scope=1&region='+txt+'&output=json&ak=wqBXfIN3HkpM1AHKWujjCdsi',
+		            dataType: "jsonp",
+		            beforeSend:function(){
+                          loaging.init('加载中...');
+                    },
+		            success: function(t) {
+		            	/*console.log(t)*/
+		            	loaging.close();
+		            	var resut=t.results;
+		            	if(t.results.length==0){
+		            		loaging.prompts('未找到');
+		            		return false;
+		            	}
+		            	var html="",address="";
+
+		            	for(var k=0;k<resut.length;k++){
+		            		if(resut[k].address==undefined){
+		            			address="&nbsp;"
+		            		}else{
+		            			address=resut[k].address;
+		            		}
+                           var x = resut[k].location.lng
+                               y = resut[k].location.lat,
+                               code = $('#code').val();
+		            		html+='<a href="/address/index?district='+resut[k].name+'&x='+x+'&y='+y+'&hiden=1&baidu_code='+code+'" class="listBoxa blocks">'
+		            				+'<img src="__PUBLIC__/image/icon-d.png" alt="" />'
+		            				+'<div class="div-item">'
+		            					+'<span>'+resut[k].name+'</span>'
+		            					+'<p>'+address+'</p>'
+		            				+'</div>'
+		            			+'</a>'
+		            	}
+		               $('.scrollers_box').html(html);
+		               myScroll.refresh();
+		            },
+		            error: function() {
+		            	loaging.close();
+		                loaging.btn('失败');
+		            }
+	        	})
+
+	        	return result;
+	    }
+</script>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>哈哈镜</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+    <include file="Public/header" />
+    <script type="text/javascript">
+       /*window.addEventListener('load', function() {FastClick.attach(document.body);}, false);  */
+    </script>
+<body>
+    <div id="mod-container" class="mod-container clearfix" >
+        <div id="mod-custom" class="mod-custom modcity-list pageview" style="display:block;">
+            <header class="pub-header bgss" style="border-bottom: none;">
+                <!-- <a class="tap-action icon icon-back" href="javascript:history.go(-1);"></a> -->
+                <div class="header-content">
+                	<div class="headBs">
+                		<form action="" class="forms" method="post" name="FrmSearch" target="_self" id="FrmSearch" onsubmit="return checkSubmit()" >
+	    	            	<p class="head-Inp"><input type="search"  id="searchs" name="search" class="styleinput" placeholder="请输入你要搜索的地址"></p>
+	    	            </form>
+                	</div>
+                </div>
+                <a class="header-right" href="javascript:void(0);">
+                	<!-- <img src="__PUBLIC__/image/icon-d.png" alt="">
+                	<span class="ui-ellipsis"></span> -->
+                	取消
+                </a>
+            </header>
+            <div class="main main-top" id="mod-custom-boxs">
+                <div class="scrollers">
+                	<div class="hHistorical_Search">
+                		<div>
+                			<p>历史搜索</p>
+                			<span><img src="__PUBLIC__/image/remove_icon.png" alt=""></span>
+                		</div>
+                		<ul>
+                			<li><a href="javascript:void(0);">哈哈镜哈哈镜</a></li>
+                			<li><a href="javascript:void(0);">哈哈镜哈哈镜</a></li>
+                			<li><a href="javascript:void(0);">哈哈镜哈哈镜</a></li>
+                			<li><a href="javascript:void(0);">哈哈镜哈哈镜</a></li>
+                			<li>更多历史<span><img src="__PUBLIC__/image/me_arrow_up.png" alt=""></span></li>
+                		</ul>
+                	</div>
+                	<div class="Near-address">
+                		<h2>附近地址</h2>
+            			<!-- <ul class="Nearadd_list">
+            				<li class="Nearadd_li">
+            					<a href="javascript:void(0);">
+            						<span>1</span>
+            						<div>
+            							<h2>民安小区</h2>
+            							<p>哈哈镜哈哈镜哈哈镜</p>
+            						</div>
+            					</a>
+            				</li>
+            			</ul> -->
+            			<div class="scrollers_box">
+            				<a href="javascript:void(0);" class="listBoxa blocks">
+	            				<span class="span">1</span>
+	            				<div class="div-item">
+	            					<span>东直门内大街</span>
+	            					<p>北京市劲松华腾园9号楼</p>
+	            				</div>
+	            			</a>
+	            			<a href="javascript:void(0);" class="listBoxa blocks">
+	            				<span class="span">1</span>
+	            				<div class="div-item">
+	            					<span>东直门内大街</span>
+	            					<p>北京市劲松华腾园9号楼</p>
+	            				</div>
+	            			</a>
+	            			<a href="javascript:void(0);" class="listBoxa blocks">
+	            				<span class="span">1</span>
+	            				<div class="div-item">
+	            					<span>东直门内大街</span>
+	            					<p>北京市劲松华腾园9号楼</p>
+	            				</div>
+	            			</a>
+	            			<a href="javascript:void(0);" class="listBoxa blocks">
+	            				<span class="span">1</span>
+	            				<div class="div-item">
+	            					<span>东直门内大街</span>
+	            					<p>北京市劲松华腾园9号楼</p>
+	            				</div>
+	            			</a>
+	            			<a href="javascript:void(0);" class="listBoxa blocks">
+	            				<span class="span">1</span>
+	            				<div class="div-item">
+	            					<span>东直门内大街</span>
+	            					<p>北京市劲松华腾园9号楼</p>
+	            				</div>
+	            			</a>
+	            			<a href="javascript:void(0);" class="listBoxa blocks">
+	            				<span class="span">1</span>
+	            				<div class="div-item">
+	            					<span>东直门内大街</span>
+	            					<p>北京市劲松华腾园9号楼</p>
+	            				</div>
+	            			</a>
+            			</div>
+                	</div>
+                </div>
+            </div>
+        </div>
+        <div class="adds_selection pageview mod-select-city" id="adds_selection" style="z-index:9999999;">
+	    	<header class="pub-header  bgss">
+                <span class="tap-action icon icon-back">
+                </span>
+                <div class="header-content" style="line-height:30px;">
+                    选择地址
+                </div>
+                <a class="header-right header-right-text" href="/Address/add.html">
+                	+新建
+                </a>
+            </header>
+	    	<div id="adds_selections" class="main main-top" style="overflow: hidden;">
+                <div class="scrollers hideBoxs" id="addselect_mins">
+                	<div class="_scroll">
+            		<foreach name="city_list_dat" item="vo">
+                        <ul>
+                            <h2>{$key}</h2>
+                            <foreach name="vo" item="val">
+                            <li class="item" data-city="{$val.city_id}" baidu-code="{$val.city_baiducode}">{$val.city_name}</li>
+                            </foreach>
+                        </ul>
+                    </foreach>
+                    </div>      
+	    		</div>
+	    	</div>
+	    </div>
+    </div>
+    <input type="hidden" name="hidden" id="code" value="">
+<include file="Public/footer" />
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=wqBXfIN3HkpM1AHKWujjCdsi"></script> 
+<script type="text/javascript">
+ 
+   	var myScroll,myScrol2,
+   		cityName=GetQueryString('cityName'),
+   		cityCode=GetQueryString('cityCode'),
+   		address_id=GetQueryString('address_id'),
+   		address=GetQueryString('address'),
+    	name=GetQueryString('name'),
+    	mobile=GetQueryString('mobile'),
+    	headcon = $('.header-content'),
+		headspan = $('.header-right span'),
+		addsection =  $('#adds_selection');
+	$(document).ready(function() {
+		init();
+		returnBth();
+		iscrollAll();
+		function init(){
+			if(GetQueryString('cityName')){
+				cityName = GetQueryString('cityName'); 
+				headspan.html(cityName);
+			}else{
+				headspan.html('请选择城市');
+			}
+			
+			myScroll = new IScroll('#mod-custom-boxs', {probeType: 3,mouseWheel: true,click: true,scrollbars: false});
+		}
+		function iscrollAll(){
+			var list={probeType: 3,mouseWheel: true,click: true,scrollbars: false};
+			myScroll = new IScroll('#mod-custom-box',list); 
+			myScrol2 = new IScroll('#adds_selections',list); 
+		}
+		 function returnBth(){
+	        $('.icon-back').on(tapClick(),function(){
+	            $('input,textarea').blur();
+	            var parentName=$(this).parents('div').attr('class');
+	            if(parentName.indexOf('adds_selection')>-1){
+	               addsection.hide();
+	               iscrollAll();
+	            }  
+	        })
+	    }  
+	    $('.mod-custom .header-right').on('click',function(){
+	   		addsection.show();
+	   		iscrollAll();
+	   	})
+	   	$('._scroll .item').on(tapClick(),function(){
+	   		var txt = $(this).text(),
+                code = $(this).attr('baidu-code');
+                if(code){
+                    $('#code').val(code);
+                }
+	   		addsection.hide();
+	        iscrollAll();
+	   		headspan.text(txt);
+	   	})	   	
+	})
+	function checkSubmit(){
+			$('#searchs').blur();
+	        var result=false,
+	       		$searchs=$('#searchs').val(),
+	       		txt = $('.header-right span').text();
+	       		if(txt == '请选择城市'){
+	       			loaging.prompts('请点击选择城市');
+	       			return false;
+	       		}
+	       		if($searchs == '' || $searchs == null){
+	       			return false;
+	       		}
+				$.ajax({
+		            url: 'http://api.map.baidu.com/place/v2/search?query='+$searchs+'&page_size=15&page_num=0&scope=1&region='+txt+'&output=json&ak=wqBXfIN3HkpM1AHKWujjCdsi',
+		            dataType: "jsonp",
+		            beforeSend:function(){
+                          loaging.init('加载中...');
+                    },
+		            success: function(t) {
+		            	/*console.log(t)*/
+		            	loaging.close();
+		            	var resut=t.results;
+		            	if(t.results.length==0){
+		            		loaging.prompts('未找到');
+		            		return false;
+		            	}
+		            	var html="",address="";
+
+		            	for(var k=0;k<resut.length;k++){
+		            		if(resut[k].address==undefined){
+		            			address="&nbsp;"
+		            		}else{
+		            			address=resut[k].address;
+		            		}
+                           var x = resut[k].location.lng
+                               y = resut[k].location.lat,
+                               code = $('#code').val();
+		            		html+='<a href="/address/index?district='+resut[k].name+'&x='+x+'&y='+y+'&hiden=1&baidu_code='+code+'" class="listBoxa blocks">'
+		            				+'<img src="__PUBLIC__/image/icon-d.png" alt="" />'
+		            				+'<div class="div-item">'
+		            					+'<span>'+resut[k].name+'</span>'
+		            					+'<p>'+address+'</p>'
+		            				+'</div>'
+		            			+'</a>'
+		            	}
+		               $('.scrollers_box').html(html);
+		               myScroll.refresh();
+		            },
+		            error: function() {
+		            	loaging.close();
+		                loaging.btn('失败');
+		            }
+	        	})
+
+	        	return result;
+	    }
+</script>
+</body>
+</html>

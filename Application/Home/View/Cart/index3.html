@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>哈哈镜</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="format-detection" content="telephone=no">
+  <include file="Public/header" />
+  <style type="text/css">.hide_Divs{display: none;}</style>
+  <script type="text/javascript">
+        document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+    </script>
+</head>
+<body >
+  <input type="hidden" id="hide_id" val="">
+    <div id="mod-container" class="mod-container clearfix">
+        <div id="mod-carts" class="mod-Catrs pageview" style="display:block;">
+            <header class="pub-header" id="heds">
+                <a class="asd tap-action icon icon-back" href="/index/index"></a>
+                <div class="header-content ui-ellipsis">购物车<span>(4)</span></div>
+            </header>
+            
+            <div class="main main-both cat_main" id="list-productss">
+             <!--  <if condition="$cart_data eq ''">
+               <div class="four_null" style="display:block;"><img src="__PUBLIC__/image/cartnull.png" alt=""></div>
+             <else/> -->
+                <div class="list-product">
+                    <div class="mod-cart scrollers">
+                          <div class="receive ui-graybg block">
+                              <div class="addr tap-action" data-tap="selectAddr" id="selectAddr">
+                                  <div class="hide_Divs" style="display:block;">
+                                    <table class="addr-table" width="100%">
+                                      <tbody id="tbodys">
+                                      <if condition="$address_default neq ''">
+                                        <input type="hidden" value="{$address_default['userid']}" id="userids">
+                                          <th width="65px">收&nbsp;&nbsp;货&nbsp;&nbsp;人</th>
+                                          <td class="cart_name">{$address_default['username']}</td>
+                                          <td rowspan="3" width="40px" class="addr-change">
+                                              <a href="javascript:void(0);"><span class="group-strong"><img src="__PUBLIC__/image/me_arrow_icon.png" alt=""></span>
+                                              </a>
+                                          </td></tr>
+                                          <tr><th>电<span class="ui-hidden">中中</span>话</th><td class="cart_phone">{$address_default['phone']}</td></tr>
+                                          <tr><th>收货地址</th><td class="cart_adds">{$address_default['cityname']}&nbsp;{$address_default['district']}</td></tr>
+                                          <input type="hidden" name="addressid" value="{$address_default['addressid']}" id="addressid">
+                                          <input type="hidden" name="lng" value="{$address_default['lng']}" id="tablng">
+                                          <input type="hidden" name="lat" value="{$address_default['lat']}" id="tablat">
+                                      <else/>
+                                           <tr><th class="addr-table-th">请选择收货地址</th>
+                                               <td rowspan="3" width="40px" class="addr-change">
+                                                   <a href="javascript:void(0);">
+                                                       <span class="group-strong">
+                                                           <img src="__PUBLIC__/image/me_arrow_icon.png" alt="">
+                                                       </span>
+                                                   </a>
+                                               </td>
+                                           </tr>
+                                        </if>
+                                        </tbody>
+                                    </table>
+                                  </div>
+                              </div>
+                          </div>
+                          <!--START-->      
+                          <div class="cart_buyBox">
+                            <div class="cart_boxs_head">
+                                <p class="cart_head_store"><a href="javascript:void(0);" id="abtn"><img src="__PUBLIC__/image/home_icon.png" alt=""><span>惠文佳超市</span><img src="__PUBLIC__/image/ring_icon.png" class="titleIvons"></a>
+                                </p>
+                                <p class="cart_head_close">删除</p>
+                            </div>     
+                            <div class="cartBx">
+                              <div class="cartBx-title">
+                                <div class="distri_div"><span>配送方式/时间</span><span>选择到店自提或送货上门</span><span>今天即使送货（选择时间）</span></div>
+                                <p class="distri_p"><span>￥50元起送</span><span>满200元免配送费</span><span>10:00-23:00支持配送</span></p>
+                              </div>
+                              <div class="cartBx_xian flex">
+                                  <span class="cartBx_ximg blocks">现</span>
+                                  <div  class="cartBx_xsize flexs">
+                                      <p>现货商品</p>
+                                      <p class="p2">共4件</p>
+                                  </div>
+                              </div>
+                              <div class="cartbig_Main padds3">
+                                  <div class="cartBx_ifon">
+                                        <dl class="dis flex">
+                                            <dt class="dt"><img src="{$vo['goods_pic']}" alt="" onerror="this.src='http://www.hahajing.com/userfiles/shop_avatar/_default3.png?ddd'"></dt>
+                                            <dd class="cart_boxs_info">
+                                               <h2 class="ui-ellipsis">鸭脖哈哈镜（正辣）</h2>
+                                               <p class="zens"><span>哈哈镜买一赠一</span></p>
+                                               <p class="info_price">￥50.00</p>
+                                           </dd>
+                                        </dl>
+                                        <div class="enjoy-info-right  icon_right">
+                                          <span class="goods_del"><img src="__PUBLIC__/image/delcon.png" alt=""></span>
+                                          <input type="text" value="10" name="text" class="goods_vals" readonly="readonly">
+                                          <span class="goods_add"><img src="__PUBLIC__/image/addcon.png" alt=""></span>
+                                       </div>
+                                  </div>
+                                  <div class="cartBx_ifon">
+                                        <dl class="dis flex">
+                                            <dt class="dt"><img src="{$vo['goods_pic']}" alt="" onerror="this.src='http://www.hahajing.com/userfiles/shop_avatar/_default3.png?ddd'"></dt>
+                                            <dd class="cart_boxs_info">
+                                               <h2 class="ui-ellipsis">鸭脖哈哈镜（正辣）</h2>
+                                               <p class="zens"><span>哈哈镜买一赠一</span></p>
+                                               <p class="info_price">￥50.00</p>
+                                           </dd>
+                                        </dl>
+                                        <div class="enjoy-info-right  icon_right">
+                                          <span class="goods_del"><img src="__PUBLIC__/image/delcon.png" alt=""></span>
+                                          <input type="text" value="10" name="text" class="goods_vals" readonly="readonly">
+                                          <span class="goods_add"><img src="__PUBLIC__/image/addcon.png" alt=""></span>
+                                       </div>
+                                  </div>
+                              </div>
+                              <div class="cartBx_go flex">
+                                  <p class="go_price flexs">金额<span class="go_prices_color">共￥<b>96.00</b></span></p>
+                                  <input type="button" name="button" value="选好了" class="inputs styleinput">
+                              </div>
+                            </div>
+                          </div>
+                          <!--END-->
+                          <!--START-->      
+                          <div class="cart_buyBox">
+                            <div class="cart_boxs_head">
+                                <p class="cart_head_store"><a href="javascript:void(0);" id="abtn"><img src="__PUBLIC__/image/home_icon.png" alt=""><span>惠文佳超市</span><img src="__PUBLIC__/image/ring_icon.png" class="titleIvons"></a>
+                                </p>
+                                <p class="cart_head_close">删除</p>
+                            </div>     
+                            <div class="cartBx">
+                              <div class="cartBx-title">
+                                <div class="distri_div"><span>配送方式/时间</span><span>选择到店自提或送货上门</span><span class="scolor">明天10:00起</span></div>
+                                <p class="distri_p"><span>￥50元起送</span><span>满200元免配送费</span><span>不满￥69收取￥10运费</span></p>
+                              </div>
+                              <div class="cartBx_xian flex">
+                                  <span class="cartBx_ximg blocks">预</span>
+                                  <div  class="cartBx_xsize flexs">
+                                      <p>预定商品</p>
+                                      <p class="p2">共4件</p>
+                                  </div>
+                              </div>
+                              <div class="cartbig_Main padds3">
+                                  <div class="cartBx_ifon">
+                                        <dl class="dis flex">
+                                            <dt class="dt"><img src="{$vo['goods_pic']}" alt="" onerror="this.src='http://www.hahajing.com/userfiles/shop_avatar/_default3.png?ddd'"></dt>
+                                            <dd class="cart_boxs_info">
+                                               <h2 class="ui-ellipsis">鸭脖哈哈镜（正辣）</h2>
+                                               <p class="zens"><span>哈哈镜买一赠一</span></p>
+                                               <p class="info_price">￥50.00</p>
+                                           </dd>
+                                        </dl>
+                                        <div class="enjoy-info-right  icon_right">
+                                          <span class="goods_del"><img src="__PUBLIC__/image/delcon.png" alt=""></span>
+                                          <input type="text" value="10" name="text" class="goods_vals" readonly="readonly">
+                                          <span class="goods_add"><img src="__PUBLIC__/image/addcon.png" alt=""></span>
+                                       </div>
+                                  </div>
+                                  <div class="cartBx_ifon">
+                                        <dl class="dis flex">
+                                            <dt class="dt"><img src="{$vo['goods_pic']}" alt="" onerror="this.src='http://www.hahajing.com/userfiles/shop_avatar/_default3.png?ddd'"></dt>
+                                            <dd class="cart_boxs_info">
+                                               <h2 class="ui-ellipsis">鸭脖哈哈镜（正辣）</h2>
+                                               <p class="zens"><span>哈哈镜买一赠一</span></p>
+                                               <p class="info_price">￥50.00</p>
+                                           </dd>
+                                        </dl>
+                                        <div class="enjoy-info-right  icon_right">
+                                          <span class="goods_del"><img src="__PUBLIC__/image/delcon.png" alt=""></span>
+                                          <input type="text" value="10" name="text" class="goods_vals" readonly="readonly">
+                                          <span class="goods_add"><img src="__PUBLIC__/image/addcon.png" alt=""></span>
+                                       </div>
+                                  </div>
+                              </div>
+                              <div class="cartBx_go flex">
+                                  <p class="go_price flexs">金额<span class="go_prices_color">共￥<b>96.00</b></span></p>
+                                  <input type="button" name="button" value="选好了" class="inputs styleinput">
+                              </div>
+                            </div>
+                          </div>
+                          <!--END-->
+                    </div>
+                </div>
+            <!--   </if> -->
+            </div>
+        </div>
+        <div id="adds_selections" class="adds_selection pageview">
+          <header class="pub-header">
+                <span class="tap-action icon icon-back" id="iconst"></span>
+                <div class="header-content">
+                    <div class="head_box">
+                      <p class="box_set">送货上门</p>
+                      <p>到店自提</p>
+                  </div>
+                </div>
+               <a class="header-right header-right-text" id="abotton" style="color:#ffffff"> 
+                  +新建
+                </a>
+            </header>
+            <div id="adds_selection" class="main main-both mainTops" style="overflow: hidden;">
+                <div id="list-product" class="list-product">
+                    <div class="addrlist_main">
+                        <div class="main main-bottom add_main" id="adds-main-one">
+                            <div class="scrollers" id="addselect_mins">
+                              <foreach name="address_get_data" item="vo">
+                                  
+                                    <dl class="addselect_boxs" >
+                                      <dt class="addselect_input">
+                                        <input type="checkbox" type="checkbox"  <if condition="$vo.default eq '1' "> checked class="inputColor"</if>>
+                                      </dt>
+                                      <dd class="addselect_con">
+                                          <a href="javascript:void(0);">
+                                              <div class="addselect_names">
+                                                  <span class="cartname">{$vo.username}</span>
+                                                  <span class="cartphone">{$vo.phone}</span>
+                                              </div>
+                                              <p class="addselect_del">
+                                                  <span>{$vo.cityname}</span>&nbsp;<span>{$vo.district}</span>&nbsp;<span>{$vo.address}</span>
+                                              </p>
+                                          </a>
+                                      </dd>
+                                      <dd class="addselect_con2">
+                                          <a href="/Address/edit?address_id={$vo.addressid}&cityname={$vo.cityname}&district={$vo.district}&x={$vo.lng}&y={$vo.lat}&cityCode={$vo.city_baiducode}&address={$vo.address}&name={$vo.username}&mobile={$vo.phone}"><img src="/Public/image/icon-edit.png" alt=""></a>
+                                      </dd>
+                                      <input type="hidden" name="addressid" value="{$vo.addressid}">
+                                      <input type="hidden" name="lng" value="{$vo.lng}">
+                                      <input type="hidden" name="lat" value="{$vo.lat}">
+                                    </dl>
+                              </foreach>
+                            </div>
+                        </div>
+                        <!--end-->
+                        <!--start-->
+                        <div  class="main main-top "  id="adds-main3">
+                              <!--自提商户显示-->
+                              <div class="box_near_shang">
+                                <ul class="generic-list">
+                                  <li class="generic-Boxli">
+                                      <div class="generic-item">
+                                          <div class="generic-item-img" data-id="{$shop_data.shop_id}">
+                                              <eq name="shop_data.shop_isvip" value="3">
+                                                      <a href="javascript:void(0);" onclick="getclickinfo('代售点不能购买产品');">
+                                                      <else/>
+                                                      <a href="javascript:void(0);">
+                                                      </eq>
+                                                <img class="image autos" src="{$shop_data.shop_avatar}" alt="" onerror="this.src='http://www.hahajing.com/userfiles/shop_avatar/_default3.png?ddd'">
+                                              </a>
+                                          </div>
+                                          <div class="generic-item_info ui-ellipsis" data-id="{$shop_data.shop_id}">
+                                              <eq name="shop_data.shop_isvip" value="3">
+                                                      <a href="javascript:void(0);" onclick="getclickinfo('代售点不能购买产品');">
+                                                      <else/>
+                                                      <a href="javascript:void(0);">
+                                                      </eq>
+                                                  <div class="lis-title ui-ellipsis">
+                                                      <h2 class="ui-ellipsis">{$shop_data.shop_name}</h2>
+                                                      <if condition="$shop_data.shop_isvip eq 1">
+                                                          <img class="liimg" src="__PUBLIC__/image/bq-red.png" alt="">
+                                                          <elseif condition="$shop_data.shop_isvip eq 2" />
+                                                          <img class="liimg" src="__PUBLIC__/image/bq-gre.png" alt="">
+                                                          <elseif condition="$shop_data.shop_isvip eq 3" />
+                                                          <img class="liimg" src="__PUBLIC__/image/bq-yell.png" alt="">
+                                                      </if>
+                                                  </div>
+                                                  <if condition="$shop_data.score gt 0">
+                                                  <div class="mens_details_x">
+                                                     <div class="wrap_x" id='wrap_cartx0' data-index="{$shop_data.score}" data-id="0">
+                                                          <div id="cur" class="cur" ></div>
+                                                      </div>
+                                                  </div>
+                                                  <else/>
+                                                  <div class='zanwu'>暂无评价</div>
+                                                  </if>
+                                                  <p class="generic-item-sh">已售<span>{$shop_data.shop_totalordercount}</span></p>
+                                              </a>
+                                          </div>
+                                          <div class="generic-item_mi">
+                                              <a href="/shop/navigation?user={$user_current['district']}&shop={$shop_data.shop_address}&user_x={$user_current['x']}&user_y={$user_current['y']}&shop_x={$shop_data.shop_baidux}&shop_y={$shop_data.shop_baiduy}">
+                                                  <img src="__PUBLIC__/image/icon-d.png" alt="">
+                                                  <p>{$shop_data.distance}</p>
+                                              </a>
+                                         </div>                                  
+                                      </div>
+                                      <div class="generic-address">
+                                          <span class="blocks ui-ellipsis">{$shop_data.shop_address}</span>
+                                      </div>
+                                      <div class="generic-not-mention">
+                                          <if condition="$shop_data.shop_deliver_type eq 1">
+                                              <p class="generic-carry generic-song <if condition='($shop_data.shop_open_status eq 2) OR ($shop_data.shop_delivertime_status eq 2)'> generic-hui </if>">
+                                                  <span>送</span><b>{$shop_data.shop_updeliverfee}</b>元起送/配送费<b>￥{$shop_data.shop_deliverfee}</b>
+                                              </p>
+                                              
+                                          </if>
+                                          <p class="generic-carry generic-zi <if condition='$shop_data.shop_open_status eq 2'> generic-hui </if>">
+                                
+                                              <if condition="$shop_data.shop_deliver_type eq 1">
+                                              <span>自</span>在线下单，到店自提</p>
+                                              <else/>
+                                              <span>店</span>仅支持到店购买</p>
+                                              </if>
+                                
+                                              <if condition="$shop_data.shop_orderphone1 neq ''">
+                                                  <a href="tel:{$shop_data.shop_orderphone1}" class="generic-a blocks">
+                                              <elseif condition="$shop_data.shop_orderphone2 neq ''" />
+                                                  <a href="tel:{$shop_data.shop_orderphone2}" class="generic-a blocks">
+                                              <else/>
+                                                  <a href="javascript:void(0);" class="generic-a blocks">
+                                              </if>
+                                              <img src="__PUBLIC__/image/icon-phone.png" alt="">
+                                              </a>
+                                      </div>
+                                  </li>
+                                </ul>
+                              <!--自提商户显示结束-->
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pub-cart add-put adds_hides" >
+                <a href="/Address/add" class="adda">
+                    +新增收货地址
+                </a>
+            </div> 
+        </div>
+        <div id="adds_selections" class="adds_selection pageview">
+        
+        </div>
+      </div>
+      <input type="hidden" name="shop_deliverscope" id="shop_deliverscope" value="{$cart_data['shop_data']['shop_deliverscope']}">
+      <input type="hidden" name="shop_id" id="shop_id" value="{$cart_data['shop_data']['shop_id']}">
+      <input type="hidden" name="act_ticket" id="act_ticket" value="{$cart_data['goods_gift_data']['ticket_info']['ticket_id']}">
+      <input type="hidden" name="goods_ticket" id="goods_ticket" value="{$cart_data['gift_data']['goods_ticket']}">
+      <input type="hidden" name="cart_ids" value="{$cart_ids}" id="cart_ids">
+      <input type="hidden" name="shop_lng" id="shop_lng" value="{$cart_data['shop_data']['shop_lng']}">
+      <input type="hidden" name="shop_lat" id="shop_lat" value="{$cart_data['shop_data']['shop_lat']}">
+    <div class="Return-top"> 
+        <img src="__PUBLIC__/image/top_icon.png" alt="">
+    </div>
+<div id="allmap"></div>
+<include file="Public/footer" />
+<script type="text/javascript" src="/min/index?f=__PUBLIC__/js/cartIndex.js"></script>
+</body>
+</html>
