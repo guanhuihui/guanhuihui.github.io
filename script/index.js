@@ -31,9 +31,7 @@ function init(){
         pagination: '.swiper-pagination',
         //virtualTranslate : true,
         mousewheelControl: true,
-        preloadImages:false,
         onLazyImageLoad: function(swiper, slide, image){
-            console.log(image);
           console.log('延迟加载图片');
           swiperAnimate(swiper);
         },
@@ -50,7 +48,7 @@ function init(){
         },
         paginationClickable: true,
         paginationClickable: true,
-        preloadImages: true,
+        preloadImages: false,
         lazyLoading: true,
         onProgress: function(swiper) {
             // for (var i = 0; i < swiper.slides.length; i++) {
