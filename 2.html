@@ -14,7 +14,7 @@
 <body>  
     <!--音乐-->
     <div id="audio_btn" url="http://www.omyrobin.xin/audio/lyk.mp3 " class="off" style="display: block;">
-        <!-- <audio loop="" src="http://www.omyrobin.xin/audio/lyk.mp3" id="media" autoplay=""></audio> -->
+        <audio loop="" src="http://www.omyrobin.xin/audio/lyk.mp3" id="media" autoplay=""></audio>
     </div>
     <!--内容-->
     <div class="swiper-container">
@@ -256,7 +256,253 @@
         <div class="swiper-pagination" style="display:none;"></div>
     </div>
 <script src="script/all.js"></script>
-<script type="text/javascript" src="script/index.js"></script>
+<script type="text/javascript">
+    function audioplay(){
+        var is_open = 'on', audio_btn = $("#audio_btn");
+        if(audio_btn.attr("url").indexOf("mp3")>1){
+            var url = audio_btn.attr("url");
+            var auto = is_open=='on' ? 'autoplay' : '';
+            var html = '<audio loop  src="'+url+'" id="media" '+auto+' ></audio>';
+            setTimeout(function(){
+                audio_btn.html(html);
+                audio_btn.show().attr("class",is_open);
+            },500);
+
+            audio_btn.on('touchstart',function(){
+                var type = audio_btn.attr("class");
+                var media = $("#media").get(0);
+                if(type=="on"){
+                    media.pause();
+                    audio_btn.attr("class","off");
+                }else{
+                    media.play();
+                    audio_btn.attr("class","on");
+                }
+            })
+        }
+    }
+
+    $('img').lazyload();
+    window.onload=function(){}
+    function init(){
+
+        function loadHistoryData(){
+            var html = '<section class="swiper-slide swiper-slide2">2222222222222222222222222</section>'
+            $('.swiper-wrapper').append(html);
+          
+
+        };
+
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'vertical',
+            pagination: '.swiper-pagination',
+            //virtualTranslate : true,
+            mousewheelControl: true,
+            onLazyImageLoad: function(swiper, slide, image){
+              console.log('延迟加载图片');
+              console.log(swiper);//Swiper实例
+              console.log(slide);//哪个slide里面的图片在加载
+              console.log(image);//哪个图片在加载
+            },
+            lazyLoading : true,
+            onInit: function(swiper) {
+                swiperAnimateCache(swiper);
+                swiperAnimate(swiper);
+            },
+            onSlideChangeEnd: function(swiper) {
+                swiperAnimate(swiper);
+            },
+            onTransitionEnd: function(swiper) {
+                swiperAnimate(swiper);
+            },
+            paginationClickable: true,
+            paginationClickable: true,
+                    // Disable preloading of all images
+                    preloadImages: false,
+                    // Enable lazy loading
+                    lazyLoading: true,
+
+            onProgress: function(swiper) {
+                // for (var i = 0; i < swiper.slides.length; i++) {
+                //     var slide = swiper.slides[i];
+                //     var progress = slide.progress;
+                //     var translate = progress * swiper.height / 4;
+                //     scale = 1 - Math.min(Math.abs(progress * 0.5), 1);
+                //     var opacity = 1 - Math.min(Math.abs(progress / 2), 0.5);
+                //     slide.style.opacity = opacity;
+                //     es = slide.style;
+                //     es.webkitTransform = es.MsTransform = es.msTransform = es.MozTransform = es.OTransform = es.transform = 'translate3d(0,' + translate + 'px,-' + translate + 'px) scaleY(' + scale + ')';
+
+                // }
+            },
+
+            onSetTransition: function(swiper, speed) {
+                // for (var i = 0; i < swiper.slides.length; i++) {
+                //     es = swiper.slides[i].style;
+                //     es.webkitTransitionDuration = es.MsTransitionDuration = es.msTransitionDuration = es.MozTransitionDuration = es.OTransitionDuration = es.transitionDuration = speed + 'ms';
+
+                // }
+            },
+
+        });
+
+
+
+
+
+
+
+
+
+
+        // var mySwiper = new Swiper('.swiper-container', {
+        //     direction: 'vertical',
+        //     pagination: '.swiper-pagination',
+        //     //virtualTranslate : true,
+        //     mousewheelControl: true,
+        //     onLazyImageLoad: function(swiper, slide, image){
+        //       alert('延迟加载图片');
+        //       console.log(swiper);//Swiper实例
+        //       console.log(slide);//哪个slide里面的图片在加载
+        //       console.log(image);//哪个图片在加载
+        //     },
+        //     onInit: function(swiper) {
+        //         swiperAnimateCache(swiper);
+        //         swiperAnimate(swiper);
+        //     },
+        //     onSlideChangeEnd: function(swiper) {
+        //         swiperAnimate(swiper);
+        //     },
+        //     onTransitionEnd: function(swiper) {
+        //         swiperAnimate(swiper);
+        //     },
+        //     paginationClickable: true,
+        //     // Disable preloading of all images
+        //     preloadImages: false,
+        //     // Enable lazy loading
+        //     lazyLoading: true,
+        //     watchSlidesProgress: true,
+
+        //     onProgress: function(swiper) {
+        //         // for (var i = 0; i < swiper.slides.length; i++) {
+        //         //     var slide = swiper.slides[i];
+        //         //     var progress = slide.progress;
+        //         //     var translate = progress * swiper.height / 4;
+        //         //     scale = 1 - Math.min(Math.abs(progress * 0.5), 1);
+        //         //     var opacity = 1 - Math.min(Math.abs(progress / 2), 0.5);
+        //         //     slide.style.opacity = opacity;
+        //         //     es = slide.style;
+        //         //     es.webkitTransform = es.MsTransform = es.msTransform = es.MozTransform = es.OTransform = es.transform = 'translate3d(0,' + translate + 'px,-' + translate + 'px) scaleY(' + scale + ')';
+
+        //         // }
+        //     },
+
+        //     onSetTransition: function(swiper, speed) {
+        //         // for (var i = 0; i < swiper.slides.length; i++) {
+        //         //     es = swiper.slides[i].style;
+        //         //     es.webkitTransitionDuration = es.MsTransitionDuration = es.msTransitionDuration = es.MozTransitionDuration = es.OTransitionDuration = es.transitionDuration = speed + 'ms';
+
+        //         // }
+        //     },
+
+        // });
+    }
+    ;(function(){
+        init();
+        audioplay();
+    })();
+    function canvas(){
+        var arrs = [[{x1:0},{y1:42},{x2:undefined},{y2:undefined}],[{x1:-34},{y1:42},{x2:-4},{y2:33}],[{x1:-4},{y1:33},{x2:43},{y2:22}],[{x1:43},{y1:22},{x2:95},{y2:8}],[{x1:95},{y1:8},{x2:146},{y2:-9}],[{x1:146},{y1:-9},{x2:198},{y2:-23}],[{x1:198},{y1:-23},{x2:264},{y2:-40}],[{x1:264},{y1:-40},{x2:325},{y2:-59}],[{x1:325},{y1:-59},{x2:387},{y2:-80}],[{x1:387},{y1:-80},{x2:450},{y2:-97}],[{x1:450},{y1:-97},{x2:506},{y2:-115}],[{x1:379},{y1:-6},{x2:undefined},{y2:undefined}],[{x1:379},{y1:-6},{x2:370},{y2:-3}],[{x1:370},{y1:-3},{x2:362},{y2:-1}],[{x1:362},{y1:-1},{x2:348},{y2:3}],[{x1:348},{y1:3},{x2:272},{y2:19}],[{x1:272},{y1:19},{x2:226},{y2:27}],[{x1:226},{y1:27},{x2:174},{y2:35}],[{x1:174},{y1:35},{x2:125},{y2:45}],[{x1:125},{y1:45},{x2:63},{y2:51}],[{x1:63},{y1:51},{x2:3},{y2:61}],[{x1:3},{y1:61},{x2:-59},{y2:69}],[{x1:-59},{y1:69},{x2:-119},{y2:80}],[{x1:-119},{y1:80},{x2:-173},{y2:88}],[{x1:-173},{y1:88},{x2:-222},{y2:96}],[{x1:7},{y1:124},{x2:68},{y2:124}],[{x1:68},{y1:124},{x2:129},{y2:124}],[{x1:129},{y1:124},{x2:184},{y2:124}],[{x1:184},{y1:124},{x2:243},{y2:124}],[{x1:243},{y1:124},{x2:306},{y2:124}],[{x1:306},{y1:124},{x2:364},{y2:124}],[{x1:364},{y1:124},{x2:425},{y2:124}],[{x1:425},{y1:124},{x2:481},{y2:124}],[{x1:481},{y1:124},{x2:522},{y2:124}],[{x1:522},{y1:124},{x2:556},{y2:124}],[{x1:556},{y1:124},{x2:584},{y2:124}],[{x1:584},{y1:124},{x2:609},{y2:124}],[{x1:609},{y1:124},{x2:624},{y2:124}],[{x1:624},{y1:124},{x2:639},{y2:124}],[{x1:639},{y1:124},{x2:651},{y2:124}],[{x1:651},{y1:124},{x2:662},{y2:124}]
+        ];
+        var canvas = document.getElementById("cas"), ctx = canvas.getContext("2d");
+        var x1, y1, a = 30;
+        var saveDot = [];
+        var canvasBox = document.getElementById("bb");
+        canvas.width = canvasBox.clientWidth;
+        canvas.height = canvasBox.clientHeight;
+        var img = new Image();
+        img.src = 'images/s2_pic2.png';
+        img.onload = function () {
+            var w = canvas.height*img.width/img.height;
+            ctx.drawImage(img, (canvas.width-w)/2, 0, w, canvas.height);
+            setTimeout(function(){tapClip()},1500);
+            
+        };
+
+            function tapClip() {
+                $('.box').css('opacity','1');
+                var area;
+                var x2,y2,
+                arr = [],
+                S = 0,timer;
+                ctx.lineCap = "round";
+                ctx.lineJoin = "round";
+                ctx.lineWidth = a * 5;
+                ctx.globalCompositeOperation = "destination-out";
+
+            
+                function getClipAreas(x1,y1){
+                    var x = x1,
+                        y = y1;
+                    var ndom = canvas;
+
+                    while(ndom.tagName!=="BODY"){
+                        x -= ndom.offsetLeft;
+                        y -= ndom.offsetTop;
+                        ndom = ndom.parentNode;
+                    }
+                    return {
+                        x: x,
+                        y: y
+                    }
+                }
+            
+            
+                for(var i = 0;i<arrs.length;i++){
+                    eval("field"+i+" = [];");
+                    eval("field"+i).push(arrs[i])
+                    arr[i]=[];
+                }
+                clearInterval(timer);
+                timer = setInterval(function(){
+                    if(arr.length != arrs.length){clearInterval(timer);return false;}
+                    S++;
+                    if(S >= arr.length){
+                        clearInterval(timer);
+                        return false;
+                    }
+                    sets(S);
+                },40-S);
+
+
+                function sets(s){
+                    var setval = eval("field"+s),
+                        setval_0 = setval[0],
+                        x1 = setval_0[0].x1,
+                        y1 = setval_0[1].y1,
+                        arrs_3 = setval_0[2].x2,
+                        arrs_4 = setval_0[3].y2;
+                        area = getClipAreas(x1, y1);
+                        x2 =arrs_3;y2 = arrs_4;
+                        drawLine(x1, y1, x2, y2);
+                        x1 = x2;y1 = y2;
+
+                }
+
+
+
+                function drawLine(x1, y1, x2, y2){
+                    ctx.save();
+                    ctx.beginPath();
+                        ctx.moveTo(x1, y1);
+                        ctx.lineTo(x2, y2);
+                        ctx.stroke();
+                        ctx.restore();
+                }
+
+            }
+    };
+</script>
 </body>
 
 </html>
