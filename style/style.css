@@ -1124,7 +1124,14 @@ img {
     background-size: 100% 100%;
     position: relative;
 }
-
+.slide5_img5{
+    position: absolute;
+    left: 0;
+    top: 7rem;
+    width: 100%;
+    display: block;
+    z-index: 99;
+}
 
 
 /*------------------------------swiper-slide13---------------------------------*/
