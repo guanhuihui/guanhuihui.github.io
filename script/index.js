@@ -24,13 +24,13 @@ function aa(){
 function audioplay(){
     var is_open = 'on', audio_btn = $("#audio_btn");
     if(audio_btn.attr("url").indexOf("mp3")>1){
-        var url = audio_btn.attr("url");
-        var auto = is_open=='on' ? 'autoplay' : '';
-        var html = '<audio loop  src="'+url+'" id="media" '+auto+' ></audio>';
-        setTimeout(function(){
-            audio_btn.html(html);
-            audio_btn.show().attr("class",is_open);
-        },500);
+        // var url = audio_btn.attr("url");
+        // var auto = is_open=='on' ? 'autoplay' : '';
+        // var html = '<audio loop  src="'+url+'" id="media" '+auto+' ></audio>';
+        // setTimeout(function(){
+        //     audio_btn.html(html);
+        //     audio_btn.show().attr("class",is_open);
+        // },500);
 
         audio_btn.on('touchstart',function(){
             var type = audio_btn.attr("class");
