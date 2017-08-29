@@ -1,3 +1,26 @@
+function setInter_time(){
+    var step_funs = 0;
+    var i=0,
+        logImg = $('.logImg'),
+        loaging = $('.loaging'),
+        timer;
+    timer=setInterval(function(){
+        if(i>=100){
+            //更该页面
+            clearInterval(timer);
+            loaging.hide();
+            aa();
+            return false;
+        } 
+        i+=2;
+        logImg.find(".p1").css("width",i+"%");
+        logImg.find(".num").html(i+"%");
+    },300);
+}
+function aa(){
+    $('img').lazyload();
+    init();
+}
 function audioplay(){
     var is_open = 'on', audio_btn = $("#audio_btn");
     if(audio_btn.attr("url").indexOf("mp3")>1){
@@ -69,6 +92,5 @@ function init(){
 
 }
 ;(function(){ 
-    $('img').lazyload();
-    init();
+    setInter_time();
 })();
