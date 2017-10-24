@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>崃一口</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+        <link rel="stylesheet" href="style/all.css">
+        <script>(function (doc, win) {var docEl = doc.documentElement,resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';var recalc = function () {var clientWidth = docEl.clientWidth;if (!clientWidth) return;docEl.style.fontSize = 20 * (clientWidth / 375) + 'px';};if (!doc.addEventListener) return;recalc();win.addEventListener(resizeEvt, recalc, false);doc.addEventListener('DOMContentLoaded', recalc, false);})(document, window);</script>
+        <script type="text/javascript"> document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);</script>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+<body>  
+    <img src="images/s0_pic.png" style="display:none">
+    <!--音乐-->
+    <div id="audio_btn" url="http://www.omyrobin.xin/test/audio/newMp3.mp3" class="on" style="display: block;">
+        <!-- <audio loop="loop" id="media" class="is_open" autoplay="autoplay" src="http://www.omyrobin.xin/index/audio/newMp3.mp3"></audio>  -->
+    </div>
+    <div class="loaging">
+        <!-- loading -->
+        <div class="img logImg"><div class="sp"><p class="p1"></p><span class="p1span"><img src="images/s0_pic.png"></span></div><div class="num">0%</div><div class="num2"><img src="images/p0_pic4.png"></div>
+        </div>
+    </div>
+    <!--内容-->
+<script src="script/all.js"></script>
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script type="text/javascript" src="script/index.js"></script>
+
+<script type="text/javascript">
+    
+    var url = window.location.href;
+    weixins(url,'index');
+
+
+    function weixins(url, name,names,imgurl,shopId) {
+        var jsApiList = ["checkJsApi", "onMenuShareTimeline", "onMenuShareAppMessage", "onMenuShareQQ", "onMenuShareWeibo", "onMenuShareQZone"];
+        $.ajax({
+            url: "/sample_fenxiang.php",
+            type: "POST",
+            data: {
+                url: url
+            },
+            dataType: "json",
+            success: function(data) {
+                if (data.result == "ok") {
+                    var rs = data.data;
+                    wx.config({
+                        debug: false,
+                        appId: rs.appId,
+                        timestamp: rs.timestamp,
+                        nonceStr: rs.nonceStr,
+                        signature: rs.signature,
+                        jsApiList: jsApiList
+                    })
+                }
+            }
+        });
+        wx.ready(function() {
+            wx.checkJsApi({
+                jsApiList: ["getNetworkType", "previewImage"],
+                success: function(res) {}
+            });
+             var shareObj = {
+                title: "邛崃酒，崃一口",
+                desc: "邛酒产区旗舰白酒品牌重磅登陆",
+                link: "http://www.omyrobin.xin/test/index.html",
+                imgUrl: "http://www.omyrobin.xin/images/ss2.png"
+            }
+            // wx.onMenuShareAppMessage({
+            //     title: '您的口袋便捷超市', // 分享标题
+            //     desc: '哈哈镜美味线上优惠购，大礼送不停；更有千种商品任您挑选，方便快捷送到家', // 分享描述
+            //     link: 'http://www.hahajing.com/download/', // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+            //     imgUrl: 'http://weixin.hahajing.com/Public/image/app_logo.png', // 分享图标
+            //     type: '', // 分享类型,music、video或link，不填默认为link
+            //     dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+            //     success: function () { 
+            //         // 用户确认分享后执行的回调函数
+            //     },
+            //     cancel: function () { 
+            //         // 用户取消分享后执行的回调函数
+            //     }
+            // });
+            wx.onMenuShareAppMessage(shareObj);
+            wx.onMenuShareTimeline(shareObj);
+            wx.onMenuShareQQ(shareObj);
+            wx.onMenuShareWeibo(shareObj);
+            wx.onMenuShareQZone(shareObj);
+            function decryptCode(code, callback) {
+                $.getJSON("/jssdk/decrypt_code.php?code=" + encodeURI(code),
+                function(res) {
+                    if (res.errcode == 0) {
+                        codes.push(res.code)
+                    }
+                })
+            }
+        });
+        wx.error(function(res) {})
+    }
+
+
+
+
+
+
+</script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?3e1b1b674bdd97876022db44e3d447e6";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+</body>
+</html>

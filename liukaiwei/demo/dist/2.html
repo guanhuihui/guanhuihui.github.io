@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>崃一口</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+        <link rel="stylesheet" href="style/all.css">
+        <script>(function (doc, win) {var docEl = doc.documentElement,resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';var recalc = function () {var clientWidth = docEl.clientWidth;if (!clientWidth) return;docEl.style.fontSize = 20 * (clientWidth / 375) + 'px';};if (!doc.addEventListener) return;recalc();win.addEventListener(resizeEvt, recalc, false);doc.addEventListener('DOMContentLoaded', recalc, false);})(document, window);</script>
+        <script type="text/javascript"> document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);</script>
+        <link rel="stylesheet" type="text/css" href="style/style.css">
+    </head>
+    
+<body>  
+    <!--音乐-->
+    <div id="audio_btn" url="http://www.omyrobin.xin/audio/lyk.mp3 " class="off" style="display: block;">
+        <audio loop="" src="http://www.omyrobin.xin/audio/lyk.mp3" id="media" autoplay=""></audio>
+    </div>
+    <!--内容-->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <!---slide1-->
+            <section class="swiper-slide swiper-slide1">
+                <!--<div class="view"><div class="box" id="bb"><canvas id="cas" ></canvas></div></div> -->
+                <!--<img src="images/btn.gif" class="ui-autos">
+                <img src="images/14.gif" class="ui-autos"> -->
+                <img data-src="images/1.png" class="swiper-lazy ani resize ui-autos" swiper-animate-effect="zoomIns" >
+                <img data-src="images/2.png" class="swiper-lazy ani resize ui-autos" swiper-animate-effect="zoomIns" swiper-animate-delay="1s">
+                <img data-src="images/s1_pic3.png" class="swiper-lazy ani resize slide1_img3" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                <img data-src="images/s1_pic4.png" class="swiper-lazy ani resize slide1_img4" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.6s">
+                <img data-src="images/s1_pic5.png" class="swiper-lazy ani resize slide1_img5" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="0.9s">
+                <img data-src="images/s1_pic6.png" class="swiper-lazy ani resize slide1_img6" swiper-animate-effect="bounceIn" swiper-animate-duration="1s" swiper-animate-delay="1.7s">
+            </section>
+            <!---slide2-->
+            <section class="swiper-slide swiper-slide2">
+                <img data-src="images/s2_pic1.jpg" class="swiper-lazy s2_img1">
+                <div class="cans">
+                    <img data-src="images/s2_pic2.jpg" class="swiper-lazy slide2_img1">
+                    <span class="ani canspan resize" swiper-animate-effect="canspanInLeft" swiper-animate-duration="1.8s" swiper-animate-delay="0.3s">
+                    </span>
+                </div>
+                <img data-src="images/s2_pic3.jpg" class="swiper-lazy ui-auto slide2_img2">    
+            </section>
+            <!--slide3-->
+            <section class="swiper-slide swiper-slide3">
+                <img data-src="images/s3_pic2.png" class="swiper-lazy s3_img1">
+                <img data-src="images/s3_pic1.png" class="swiper-lazy ani resize s3_img2" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                <img data-src="images/s3_pic3.png" class="swiper-lazy ani resize s3_img3" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                <img data-src="images/s3_pic4.png" class="swiper-lazy ani resize s3_img4" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.3s">
+                <img data-src="images/s3_pic5.png" class="swiper-lazy ani resize s3_img5" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.3s">
+                <img data-src="images/s3_pic6.png" class="swiper-lazy ani resize s3_img6" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="2.3s">
+                <img data-src="images/s3_pic7.png" class="swiper-lazy ani resize s3_img7" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="2.3s">
+            </section>
+            <!---slide4-->
+            <section class="swiper-slide swiper-slide4">
+               <div class="s4">
+                   <img data-src="images/s4_pic1.png" class="swiper-lazy ani resize slide4_img1" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="0.2s">
+                   <img data-src="images/s4_pic2.png" class="swiper-lazy ani resize slide4_img2" swiper-animate-effect="fadeInDown" swiper-animate-duration="1s" swiper-animate-delay="1.5s">
+                   <img data-src="images/s4_pic3.png" class="swiper-lazy ani resize slide4_img3" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="0.2s">
+                   <img data-src="images/s4_pic4.jpg" class="swiper-lazy slide4_img4">
+               </div>   
+            </section>
+            <!---slide5-->
+            <section class="swiper-slide swiper-slide5">
+                <img data-src="images/s5_pic3.png" class="swiper-lazy ui-auto slide5_img3">
+                <img data-src="images/s5_pic1.png" class="swiper-lazy ani resize slide5_img1" swiper-animate-effect="zoomInS" swiper-animate-delay="0s">
+                <div class="ani resize slide5_size2">
+                    <!-- 始于天泉之水 -->
+                    <div class="ani resize s5_div" swiper-animate-effect="height_over"><img data-src="images/s5_pic4.png" class="swiper-lazy ani resize slide5_img4 ui-auto"></div>
+                    <!-- <span class="ani resize" swiper-animate-effect="fadeInDownss" swiper-animate-duration="3.5s" swiper-animate-delay="0.3s"></span> -->
+                </div>
+                <img data-src="images/s5_pic2.png" class="swiper-lazy ani resize slide5_img2" swiper-animate-effect="zoomInS" swiper-animate-delay="0s">  
+            </section>
+            <!---slide6-->
+            <section class="swiper-slide swiper-slide6">
+                <div class="s6_div">
+                    <img data-src="images/s6_img3.png" class="swiper-lazy ui-auto s6_img1" alt="">
+                    <div class="s6_div1">
+                        <img data-src="images/s6_pic1.png" class="swiper-lazy ani resize s6_img2" swiper-animate-effect="mohu" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                    </div>
+                    <div class="s6_div2">
+                        <div class="s6_left">
+                            <img data-src="images/s6_img4.png" class="swiper-lazy ani resize s6_img3" swiper-animate-effect="mohu" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                            <img data-src="images/s6_img5.png" class="swiper-lazy ani s6_img4">
+                        </div>
+                        <div class="s6_right">
+                            <img data-src="images/s6_img6.png" class="swiper-lazy ani resize s6_img5" swiper-animate-effect="mohu" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                            <img data-src="images/s6_img7.png" class="swiper-lazy ani s6_img6">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!---slide7-->
+            <section class="swiper-slide swiper-slide7">
+                <div class="s7_div">
+                    <img data-src="images/s7_pic1.png" class="swiper-lazy ui-auto s7_img1" />
+                    <div class="s7_div1">
+                        <div class="s71_left">
+                            <img data-src="images/s7_pic2.png" class="swiper-lazy ani resize s7_img2" swiper-animate-effect="mohu" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s">
+                            <img data-src="images/s7_pic6.png" class="swiper-lazy ani s7_img3">
+                        </div>
+                        <div class="s71_right">
+                            <img data-src="images/s7_pic3.png" class="swiper-lazy ani resize s7_img4" swiper-animate-effect="mohu" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s">
+                        </div>
+                    </div>
+                    <div class="s7_div2">
+                        <div class="s71_left">
+                            <img data-src="images/s7_pic4.png" class="swiper-lazy ani resize s7_img5" swiper-animate-effect="mohu" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s">
+                            <img data-src="images/s7_pic7.png" class="swiper-lazy ani s7_img6">
+                        </div>
+                        <div class="s71_left">
+                            <img data-src="images/s7_pic5.png" class="swiper-lazy ani resize s7_img7" swiper-animate-effect="mohu" swiper-animate-duration="1.5s" swiper-animate-delay="0.3s">
+                            <img data-src="images/s7_pic8.png" class="swiper-lazy ani s7_img8">
+                        </div>
+                    </div>
+                </div>
+               <!-- <img data-src="images/s6_pic1.png" class="ani resize" swiper-animate-effect="mohu" swiper-animate-duration="1.5s" swiper-animate-delay="0.2s"> -->
+            </section>
+            <!---slide8-->
+            <section class="swiper-slide swiper-slide5 swiper-slide8">
+                <img data-src="images/s8_pic6.png" class="swiper-lazy ui-auto slide5_img3">
+                <div class="ani resize slide8_size2">
+                    <!-- 始于天泉之水 -->
+                    <div class="ani resize s5_div" swiper-animate-effect="height_over"><img data-src="images/s8_pic5.png" class="swiper-lazy ani resize slide5_img4 ui-auto"></div>
+                    <!-- <span class="ani resize" swiper-animate-effect="fadeInDownss" swiper-animate-duration="3.5s" swiper-animate-delay="0.3s"></span> -->
+                </div>
+                <div class="s8">
+                    <img data-src="images/s8_pic1.png" class="swiper-lazy s8img ui-autos">
+                    <!-- <img data-src="images/s8_pic2.png" class="ani resize s8img2" swiper-animate-effect="fadeIn" swiper-animate-duration="2s" swiper-animate-delay="0.3s">
+                    <img data-src="images/s8_pic3.png" class="ani resize s8img3" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="1.3s">
+                    <img data-src="images/s8_pic4.png" class="ani resizes s8img4" swiper-animate-effect="fadeIn" swiper-animate-duration="1.5s" swiper-animate-delay="0.6s"> -->
+                    <img data-src="images/s8_pic2.png" class="swiper-lazy ani resize s8img2" swiper-animate-effect="fadeInUp" swiper-animate-delay="0.3s">
+                    <img data-src="images/s8_pic3.png" class="swiper-lazy ani resize s8img3" swiper-animate-effect="fadeInUp"  swiper-animate-delay="1.3s">
+                    <img data-src="images/s8_pic4.png" class="swiper-lazy ani resizes s8img4" swiper-animate-effect="fadeInUp"  swiper-animate-delay="0.9s">
+                </div>
+            </section>
+            <!---slide9-->
+            <section class="swiper-slide swiper-slide9">  
+                <!-- <div class="masked" >
+                        <h1>→css3文字渐变动画效果 >></h1>
+                </div> -->
+                <img data-src="images/s9_pic1.png" class="swiper-lazy ui-auto s9_img1" alt="">
+                <div class="s9_div">
+                    <span class="ani resize s9_divspan" swiper-animate-effect="fadeInRightss" swiper-animate-duration="1s" swiper-animate-delay="0s"></span>
+                    <img data-src="images/s9_pic2.png" class="swiper-lazy ui-auto s9_img2" alt="">
+                </div>
+            </section>
+            <!---slide10-->
+            <section class="swiper-slide swiper-slide10">
+                <div class="s10_div">
+                    <div class="s10_div1">
+                        <img data-src="images/s10_pic1.png" class="swiper-lazy ani resize s10_img1 s10_img11" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s">
+                        <img data-src="images/s10_pic2.png" class="swiper-lazy ani resize s10_img1 s10_img12" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.6s">
+                        <img data-src="images/s10_pic3.png" class="swiper-lazy ani resize s10_img1 s10_img13" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
+                        <img data-src="images/s10_pic4.png" class="swiper-lazy ani resize s10_img1 s10_img14" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.8s">
+                        <img data-src="images/s10_pic5.png" class="swiper-lazy ani resize s10_img1 s10_img15" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.4s">
+                    </div>
+                    <img data-src="images/s10_pic11.png" class="swiper-lazy ui-auto" alt="">
+                    <div class="s10_div2">
+                         <img data-src="images/s10_pic6.png" class="swiper-lazy ani resize s10_img1 s10_img11" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s">
+                        <img data-src="images/s10_pic6.png" class="swiper-lazy ani resize s10_img1 s10_img12" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.6s">
+                        <img data-src="images/s10_pic6.png" class="swiper-lazy ani resize s10_img1 s10_img13" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.2s">
+                        <img data-src="images/s10_pic6.png" class="swiper-lazy ani resize s10_img1 s10_img14" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="1.8s">
+                        <img data-src="images/s10_pic6.png" class="swiper-lazy ani resize s10_img1 s10_img15" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="2.4s">
+                    </div>
+                    <div class="s10_div3">
+                        <img data-src="images/s10_pic12.png" class="swiper-lazy ani resize ui-auto" swiper-animate-effect="fadeInUp" swiper-animate-duration="1s" swiper-animate-delay="3s">
+                    <div>
+                </div>
+            </section>
+            <!---slide11-->
+            <section class="swiper-slide swiper-slide11">
+                <img data-src="images/s11_pic4.jpg" alt="" class="swiper-lazy s11_img3">
+                <div class="s11_div">
+                  <img data-src="images/s11_pic1.png" class="swiper-lazy ani resize s11_img1 ui-auto" swiper-animate-effect="s11_rotate" swiper-animate-duration="25s">
+                  <img data-src="images/s11_pic2.png" class="swiper-lazy ani resize s11_img2">
+                </div>
+            </section>
+            <!---slide12-->
+            <section class="swiper-slide swiper-slide5 swiper-slide8 swiper-slide12">
+                <img data-src="images/s12_pic1.png" class="swiper-lazy ui-auto slide5_img3">
+                <div class="ani resize slide8_size2">
+                    <!-- 始于天泉之水 -->
+                    <div class="ani resize s5_div" swiper-animate-effect="height_over"><img data-src="images/s12_pic2.png" class="swiper-lazy ani resize slide5_img4 ui-auto"></div>
+                    <!-- <span class="ani resize" swiper-animate-effect="fadeInDownss" swiper-animate-duration="3.5s" swiper-animate-delay="0.3s"></span> -->
+                </div>
+            </section>
+            <!---slide13-->
+            <section class="swiper-slide swiper-slide13">  
+                <img data-src="images/s13_img2.jpg" class="swiper-lazy ui-autos" alt="">
+                <img data-src="images/s13_pic1.png" class="swiper-lazy ani resize s13_img1" alt="" swiper-animate-effect="STAR-MOVE" swiper-animate-duration="10s" swiper-animate-delay="0s">
+                <img data-src="images/s13_pic1.png" class="swiper-lazy ani resize s13_img2" alt="" swiper-animate-effect="STAR-MOVE" swiper-animate-duration="10s" swiper-animate-delay="0s">
+                <img data-src="images/s13_pic1.png" class="swiper-lazy ani resize s13_img3" alt="" swiper-animate-effect="STAR-MOVE" swiper-animate-duration="10s" swiper-animate-delay="0s">
+                <img data-src="images/s13_pic2.png" class="swiper-lazy ani resize s13_img4" alt="" swiper-animate-effect="STAR-MOVE" swiper-animate-duration="10s" swiper-animate-delay="0s">
+                <img data-src="images/s13_pic2.png" class="swiper-lazy ani resize s13_img5" alt="" swiper-animate-effect="STAR-MOVE" swiper-animate-duration="10s" swiper-animate-delay="0s">
+                <!-- <div  id="foreground" class="ani resize wall" swiper-animate-effect="STAR-MOVE" swiper-animate-duration="100s" swiper-animate-delay="0s" ></div> -->
+            </section>
+            <!---slide14-->
+            <section class="swiper-slide swiper-slide14">  
+                <!-- <img data-src="images/s14_pic1.jpg" alt="" class="ui-autos">
+                <img data-src="images/s14_pic1.png" class="s14_img1" alt=""> -->
+                <img data-src="images/14_1.gif" class="swiper-lazy ui-autos" alt="">
+            </section>
+            <!---slide15-->
+            <section class="swiper-slide swiper-slide15">  
+                <img data-src="images/s15_img1.jpg" alt="" class="swiper-lazy s15_img1">
+                <div class="sky">
+                    <div class="clouds_one"></div>
+                    <div class="clouds_two"></div>
+                </div>
+            </section>
+            <!---slide16-->
+            <section class="swiper-slide swiper-slide16">  
+                <img data-src="images/s16_img1.png" alt="" class="swiper-lazy s16_img1">
+                <div class="s15_div1">
+                    <img data-src="images/s16_img2.png" class="swiper-lazy ui-auto s16_img2" alt="">
+                    <img data-src="images/s16_img3.png" class="swiper-lazy ani resize s16_img3" alt="" swiper-animate-effect="shakes" swiper-animate-duration="1s" swiper-animate-delay="0s">
+                </div>
+                <div class="s15_div2">
+                    <img data-src="images/s16_img4.png" class="swiper-lazy ui-auto s16_img2" alt="">
+                    <img data-src="images/s16_img5.png" class="swiper-lazy ani resize s16_img4" alt="" swiper-animate-effect="shakes" swiper-animate-duration="1s" swiper-animate-delay="0.3s">
+                </div>
+            </section>
+            <!---slide17-->
+            <section class="swiper-slide swiper-slide17">  
+                <ul class="listimg">
+                    <li class="liimg">
+                        <img data-src="images/s17_img1.jpg" class="swiper-lazy s17_img1 s17i1" alt=""><img data-src="images/s17_img2.jpg" class="swiper-lazy s17_img1 s17i2" alt=""><img data-src="images/s17_img3.jpg" class="swiper-lazy s17_img1 s17i3" alt="">
+                    </li>
+                    <li class="liimg">
+                        <img data-src="images/s17_img4.jpg" class="swiper-lazy s17_img2 s17i4" alt=""><img data-src="images/s17_img5.jpg" class="swiper-lazy s17_img2 s17i5" alt=""><img data-src="images/s17_img6.jpg" class="swiper-lazy s17_img2 s17i6" alt="">
+                    </li>
+                    <li class="liimg">
+                        <img data-src="images/s17_img4.jpg" class="swiper-lazy s17_img2 s17i7" alt=""><img data-src="images/s17_img5.jpg" class="swiper-lazy s17_img2 s17i8" alt=""><img data-src="images/s17_img6.jpg" class="swiper-lazy s17_img2 s17i9" alt="">
+                    </li>
+                    <li class="liimg">
+                        <img data-src="images/s17_img4.jpg" class="swiper-lazy s17_img2 s17i10" alt=""><img data-src="images/s17_img5.jpg" class="swiper-lazy s17_img2 s17i11" alt=""><img data-src="images/s17_img6.jpg" class="swiper-lazy s17_img2 s17i12" alt="">
+                    </li>
+                    <li class="liimg">
+                        <img data-src="images/s17_img4.jpg" class="swiper-lazy s17_img2 s17i13" alt=""><img data-src="images/s17_img5.jpg" class="swiper-lazy s17_img2 s17i14" alt=""><img data-src="images/s17_img6.jpg" class="swiper-lazy s17_img2 s17i15" alt="">
+                    </li>
+                </ul>
+            </section>
+            <!---slide18-->
+            <section class="swiper-slide swiper-slide18">  
+                <img data-src="images/s18_img1.jpg" alt="" class="swiper-lazy ui-autos">
+                <div class="s18_div">
+                    <!-- <a class="s18_span" href="http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzI2MjYxMzg2MQ==&shelf_id=1&showwxpaytitle=1#wechat_redirect">崃一口</a> -->
+                    <span class="size">点击购买</span>
+                </div>
+                <a class="s18_span" href="http://mp.weixin.qq.com/bizmall/mallshelf?id=&t=mall/list&biz=MzI2MjYxMzg2MQ==&shelf_id=1&showwxpaytitle=1#wechat_redirect"><img data-src="images/btn.gif" class="swiper-lazy ui-autos ani btns" alt=""></a>
+            </section>
+           
+        </div>
+        <img src="images/arrow.png" id="array" class="resize">
+        <div class="swiper-pagination" style="display:none;"></div>
+    </div>
+<script src="script/all.js"></script>
+<script type="text/javascript">
+    function audioplay(){
+        var is_open = 'on', audio_btn = $("#audio_btn");
+        if(audio_btn.attr("url").indexOf("mp3")>1){
+            var url = audio_btn.attr("url");
+            var auto = is_open=='on' ? 'autoplay' : '';
+            var html = '<audio loop  src="'+url+'" id="media" '+auto+' ></audio>';
+            setTimeout(function(){
+                audio_btn.html(html);
+                audio_btn.show().attr("class",is_open);
+            },500);
+
+            audio_btn.on('touchstart',function(){
+                var type = audio_btn.attr("class");
+                var media = $("#media").get(0);
+                if(type=="on"){
+                    media.pause();
+                    audio_btn.attr("class","off");
+                }else{
+                    media.play();
+                    audio_btn.attr("class","on");
+                }
+            })
+        }
+    }
+
+    $('img').lazyload();
+    window.onload=function(){}
+    function init(){
+
+        function loadHistoryData(){
+            var html = '<section class="swiper-slide swiper-slide2">2222222222222222222222222</section>'
+            $('.swiper-wrapper').append(html);
+          
+
+        };
+
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'vertical',
+            pagination: '.swiper-pagination',
+            //virtualTranslate : true,
+            mousewheelControl: true,
+            onLazyImageLoad: function(swiper, slide, image){
+              console.log('延迟加载图片');
+              console.log(swiper);//Swiper实例
+              console.log(slide);//哪个slide里面的图片在加载
+              console.log(image);//哪个图片在加载
+            },
+            lazyLoading : true,
+            onInit: function(swiper) {
+                swiperAnimateCache(swiper);
+                swiperAnimate(swiper);
+            },
+            onSlideChangeEnd: function(swiper) {
+                swiperAnimate(swiper);
+            },
+            onTransitionEnd: function(swiper) {
+                swiperAnimate(swiper);
+            },
+            paginationClickable: true,
+            paginationClickable: true,
+                    // Disable preloading of all images
+                    preloadImages: false,
+                    // Enable lazy loading
+                    lazyLoading: true,
+
+            onProgress: function(swiper) {
+                // for (var i = 0; i < swiper.slides.length; i++) {
+                //     var slide = swiper.slides[i];
+                //     var progress = slide.progress;
+                //     var translate = progress * swiper.height / 4;
+                //     scale = 1 - Math.min(Math.abs(progress * 0.5), 1);
+                //     var opacity = 1 - Math.min(Math.abs(progress / 2), 0.5);
+                //     slide.style.opacity = opacity;
+                //     es = slide.style;
+                //     es.webkitTransform = es.MsTransform = es.msTransform = es.MozTransform = es.OTransform = es.transform = 'translate3d(0,' + translate + 'px,-' + translate + 'px) scaleY(' + scale + ')';
+
+                // }
+            },
+
+            onSetTransition: function(swiper, speed) {
+                // for (var i = 0; i < swiper.slides.length; i++) {
+                //     es = swiper.slides[i].style;
+                //     es.webkitTransitionDuration = es.MsTransitionDuration = es.msTransitionDuration = es.MozTransitionDuration = es.OTransitionDuration = es.transitionDuration = speed + 'ms';
+
+                // }
+            },
+
+        });
+
+
+
+
+
+
+
+
+
+
+        // var mySwiper = new Swiper('.swiper-container', {
+        //     direction: 'vertical',
+        //     pagination: '.swiper-pagination',
+        //     //virtualTranslate : true,
+        //     mousewheelControl: true,
+        //     onLazyImageLoad: function(swiper, slide, image){
+        //       alert('延迟加载图片');
+        //       console.log(swiper);//Swiper实例
+        //       console.log(slide);//哪个slide里面的图片在加载
+        //       console.log(image);//哪个图片在加载
+        //     },
+        //     onInit: function(swiper) {
+        //         swiperAnimateCache(swiper);
+        //         swiperAnimate(swiper);
+        //     },
+        //     onSlideChangeEnd: function(swiper) {
+        //         swiperAnimate(swiper);
+        //     },
+        //     onTransitionEnd: function(swiper) {
+        //         swiperAnimate(swiper);
+        //     },
+        //     paginationClickable: true,
+        //     // Disable preloading of all images
+        //     preloadImages: false,
+        //     // Enable lazy loading
+        //     lazyLoading: true,
+        //     watchSlidesProgress: true,
+
+        //     onProgress: function(swiper) {
+        //         // for (var i = 0; i < swiper.slides.length; i++) {
+        //         //     var slide = swiper.slides[i];
+        //         //     var progress = slide.progress;
+        //         //     var translate = progress * swiper.height / 4;
+        //         //     scale = 1 - Math.min(Math.abs(progress * 0.5), 1);
+        //         //     var opacity = 1 - Math.min(Math.abs(progress / 2), 0.5);
+        //         //     slide.style.opacity = opacity;
+        //         //     es = slide.style;
+        //         //     es.webkitTransform = es.MsTransform = es.msTransform = es.MozTransform = es.OTransform = es.transform = 'translate3d(0,' + translate + 'px,-' + translate + 'px) scaleY(' + scale + ')';
+
+        //         // }
+        //     },
+
+        //     onSetTransition: function(swiper, speed) {
+        //         // for (var i = 0; i < swiper.slides.length; i++) {
+        //         //     es = swiper.slides[i].style;
+        //         //     es.webkitTransitionDuration = es.MsTransitionDuration = es.msTransitionDuration = es.MozTransitionDuration = es.OTransitionDuration = es.transitionDuration = speed + 'ms';
+
+        //         // }
+        //     },
+
+        // });
+    }
+    ;(function(){
+        init();
+        audioplay();
+    })();
+    function canvas(){
+        var arrs = [[{x1:0},{y1:42},{x2:undefined},{y2:undefined}],[{x1:-34},{y1:42},{x2:-4},{y2:33}],[{x1:-4},{y1:33},{x2:43},{y2:22}],[{x1:43},{y1:22},{x2:95},{y2:8}],[{x1:95},{y1:8},{x2:146},{y2:-9}],[{x1:146},{y1:-9},{x2:198},{y2:-23}],[{x1:198},{y1:-23},{x2:264},{y2:-40}],[{x1:264},{y1:-40},{x2:325},{y2:-59}],[{x1:325},{y1:-59},{x2:387},{y2:-80}],[{x1:387},{y1:-80},{x2:450},{y2:-97}],[{x1:450},{y1:-97},{x2:506},{y2:-115}],[{x1:379},{y1:-6},{x2:undefined},{y2:undefined}],[{x1:379},{y1:-6},{x2:370},{y2:-3}],[{x1:370},{y1:-3},{x2:362},{y2:-1}],[{x1:362},{y1:-1},{x2:348},{y2:3}],[{x1:348},{y1:3},{x2:272},{y2:19}],[{x1:272},{y1:19},{x2:226},{y2:27}],[{x1:226},{y1:27},{x2:174},{y2:35}],[{x1:174},{y1:35},{x2:125},{y2:45}],[{x1:125},{y1:45},{x2:63},{y2:51}],[{x1:63},{y1:51},{x2:3},{y2:61}],[{x1:3},{y1:61},{x2:-59},{y2:69}],[{x1:-59},{y1:69},{x2:-119},{y2:80}],[{x1:-119},{y1:80},{x2:-173},{y2:88}],[{x1:-173},{y1:88},{x2:-222},{y2:96}],[{x1:7},{y1:124},{x2:68},{y2:124}],[{x1:68},{y1:124},{x2:129},{y2:124}],[{x1:129},{y1:124},{x2:184},{y2:124}],[{x1:184},{y1:124},{x2:243},{y2:124}],[{x1:243},{y1:124},{x2:306},{y2:124}],[{x1:306},{y1:124},{x2:364},{y2:124}],[{x1:364},{y1:124},{x2:425},{y2:124}],[{x1:425},{y1:124},{x2:481},{y2:124}],[{x1:481},{y1:124},{x2:522},{y2:124}],[{x1:522},{y1:124},{x2:556},{y2:124}],[{x1:556},{y1:124},{x2:584},{y2:124}],[{x1:584},{y1:124},{x2:609},{y2:124}],[{x1:609},{y1:124},{x2:624},{y2:124}],[{x1:624},{y1:124},{x2:639},{y2:124}],[{x1:639},{y1:124},{x2:651},{y2:124}],[{x1:651},{y1:124},{x2:662},{y2:124}]
+        ];
+        var canvas = document.getElementById("cas"), ctx = canvas.getContext("2d");
+        var x1, y1, a = 30;
+        var saveDot = [];
+        var canvasBox = document.getElementById("bb");
+        canvas.width = canvasBox.clientWidth;
+        canvas.height = canvasBox.clientHeight;
+        var img = new Image();
+        img.src = 'images/s2_pic2.png';
+        img.onload = function () {
+            var w = canvas.height*img.width/img.height;
+            ctx.drawImage(img, (canvas.width-w)/2, 0, w, canvas.height);
+            setTimeout(function(){tapClip()},1500);
+            
+        };
+
+            function tapClip() {
+                $('.box').css('opacity','1');
+                var area;
+                var x2,y2,
+                arr = [],
+                S = 0,timer;
+                ctx.lineCap = "round";
+                ctx.lineJoin = "round";
+                ctx.lineWidth = a * 5;
+                ctx.globalCompositeOperation = "destination-out";
+
+            
+                function getClipAreas(x1,y1){
+                    var x = x1,
+                        y = y1;
+                    var ndom = canvas;
+
+                    while(ndom.tagName!=="BODY"){
+                        x -= ndom.offsetLeft;
+                        y -= ndom.offsetTop;
+                        ndom = ndom.parentNode;
+                    }
+                    return {
+                        x: x,
+                        y: y
+                    }
+                }
+            
+            
+                for(var i = 0;i<arrs.length;i++){
+                    eval("field"+i+" = [];");
+                    eval("field"+i).push(arrs[i])
+                    arr[i]=[];
+                }
+                clearInterval(timer);
+                timer = setInterval(function(){
+                    if(arr.length != arrs.length){clearInterval(timer);return false;}
+                    S++;
+                    if(S >= arr.length){
+                        clearInterval(timer);
+                        return false;
+                    }
+                    sets(S);
+                },40-S);
+
+
+                function sets(s){
+                    var setval = eval("field"+s),
+                        setval_0 = setval[0],
+                        x1 = setval_0[0].x1,
+                        y1 = setval_0[1].y1,
+                        arrs_3 = setval_0[2].x2,
+                        arrs_4 = setval_0[3].y2;
+                        area = getClipAreas(x1, y1);
+                        x2 =arrs_3;y2 = arrs_4;
+                        drawLine(x1, y1, x2, y2);
+                        x1 = x2;y1 = y2;
+
+                }
+
+
+
+                function drawLine(x1, y1, x2, y2){
+                    ctx.save();
+                    ctx.beginPath();
+                        ctx.moveTo(x1, y1);
+                        ctx.lineTo(x2, y2);
+                        ctx.stroke();
+                        ctx.restore();
+                }
+
+            }
+    };
+</script>
+</body>
+
+</html>
