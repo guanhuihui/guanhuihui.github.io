@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<style type="text/css">
+/*		.box{
+			width: 100%;
+			position: absolute;
+			left: 0;
+			top: 200px;
+			bottom: 40px;
+			overflow: hidden;
+			display: flex;
+			background-color: #f5f5f5;
+		}
+		.left{
+			flex:0 0 80px;
+			background-color: #eee;
+		}
+		.right{
+			flex:1;
+		}
+		.li{
+			display: table;
+		    height: 54px;
+		    width: 56px;
+		    padding: 0 12px;
+		    line-height: 14px;
+			border-bottom: 1px solid #ccc;
+		}
+		.text{
+			display: table-cell;
+		    width: 56px;
+		    vertical-align: middle;
+		    position: relative;
+		    font-size: 12px;
+		}
+		.lis{
+			height: 250px;
+			font-size: 12px;
+		}
+		.active{
+			background-color: #abc;
+		}*/
+		.lists{
+			width: 100%;
+			display:-webkit-box;
+			display: box;
+		}
+		.lists-item{
+			text-align: center;
+			width: 30%;
+			border:1px solid #ccc;
+		}
+	</style>
+</head>
+<body>
+	<ul class="lists">
+		<li class="lists-item">11</li>
+		<li class="lists-item">11</li>
+		<li class="lists-item">11</li>
+		<li class="lists-item">11</li>
+	</ul>
+	<div class="box">
+		<h2>11</h2>
+		<div>
+			<p>11</p>
+			<p>11</p>
+			<p>11</p>
+			<p>11</p>
+			<p>11</p>
+		</div>
+		<h2>22</h2>
+		<div>
+			<p>22</p>
+			<p>22</p>
+			<p>22</p>
+			<p>22</p>
+			<p>22</p>
+		</div>
+		<h2>33</h2>
+		<div>
+			<p>33</p>
+			<p>33</p>
+			<p>33</p>
+			<p>33</p>
+			<p>33</p>
+		</div>
+		<h2>44</h2>
+		<div>
+			<p>44</p>
+			<p>44</p>
+			<p>44</p>
+			<p>44</p>
+			<p>44</p>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bscroll.js"></script>
+	<script type="text/javascript">
+		var lefts = wrapper = document.querySelector('.box');
+
+		var a = new BScroll(lefts,{probeType: 3,click: true}); 
+
+
+		var Lis = document.getElementsByClassName('li');
+		var Liss = document.getElementsByClassName('lis');
+
+
+		var scrollY = 0;
+
+		var lis = document.querySelectorAll('.li');
+		var li = document.querySelectorAll('.lis');
+		var arr = [];
+		var arrH = 0;
+		for(var k = 0;k<li.length;k++){
+			var ks = li[k];
+			arrH += ks.clientHeight*1;
+			arr.push(arrH);
+		}
+		// b.on('scroll',function(pos){
+  //         if (pos.y <= 0) {
+  //          	scrollY = Math.abs(Math.round(pos.y));
+  //         }
+  //         var len = ass(scrollY);
+  //         for(var s = 0;s<Lis.length;s++){
+  //         	Lis[s].setAttribute('class','li');
+  //         }
+  //         if((len+1) >= arr.length){	
+  //         	Lis[0].setAttribute('class','li active');
+  //         	var el = Lis[0];
+  //         	a.scrollToElement(el, 300, 0, -100);	
+  //         	//a.scrollToElement(Lis[0], 300);
+  //         	//$('.li').eq(0).addClass('active').siblings().removeClass('active');
+  //         }else{
+  //         	Lis[len+1].setAttribute('class','li active');
+  //         	var el = Lis[len+1];
+		// 	a.scrollToElement(el, 300, 0, -100);
+  //         	//a.scrollToElement(Lis[len+1], 300);
+  //         	//$('.li').eq(len+1).addClass('active').siblings().removeClass('active');
+  //         }
+  //       });
+        function ass(ys){
+        	for(var s = 0;s<arr.length;s++){
+        		var height1 = arr[s];
+        		var height2 = arr[s + 1];
+        		if (!height2 || (ys >= height1 && ys < height2)) {
+        	      return s;
+        	    }
+        	}
+        	return 0;
+        }
+        
+       
+        for(var k = 0;k<Lis.length;k++){
+        	Lis[k].index = k;
+        	Lis[k].onclick = function(event){
+        		if(!event._constructed){
+        			return;
+        		}
+	        	var index = this.index;
+	        	for(var s = 0;s<Lis.length;s++){
+	        		Lis[s].setAttribute('class','li');
+	        	}
+	        	var el = Liss[index];
+	        	Lis[index].setAttribute('class','li active');
+	        
+	        }
+        }
+
+
+	</script>
+</body>
+</html>

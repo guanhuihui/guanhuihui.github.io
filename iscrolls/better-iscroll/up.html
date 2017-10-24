@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/common.css">
+  <script>(function (doc, win) {var docEl = doc.documentElement,resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize';var recalc = function () {var clientWidth = docEl.clientWidth;if (!clientWidth) return;if (clientWidth>650) {docEl.style.fontSize = '34.56px';return};docEl.style.fontSize = 20 * (clientWidth / 375) + 'px';};if (!doc.addEventListener) return;recalc();win.addEventListener(resizeEvt, recalc, false);doc.addEventListener('DOMContentLoaded', recalc, false);})(document, window);</script>
+</head>
+<body>
+  <div class="mod-container">
+    <header class="pub-head bdr-bottom">
+        <div class="head-content ">头部</div>
+    </header>
+    <div class="main main-both">
+      <div>
+        <div id="pullDown" class="" style="display: none;">
+            <div class="pullDownIcon"></div>
+            <div class="pullDownLabel"></div>
+        </div>
+        <div class="min">
+          <p>0000000000000000000000000000</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>1111111111111</p><p>222222222222222222222</p>
+        </div>
+
+        <div id="pullUp" class="" style="display: none;">
+            <div class="pullUpIcon"></div>
+            <div class="pullUpLabel"></div>
+          </div>
+      </div>
+    </div>
+    <footer class="pub-cart">
+      尾部
+    </footer>
+  </div>
+  
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bscroll.js"></script>
+  <script type="text/javascript">
+  var main = document.querySelector('.main');
+  var scroll = new window.BScroll(main, {
+      probeType: 1
+    });
+   scroll.on('scroll', function (position) {
+      if(position.y > 20){
+        $('#pullDown').attr('class','loaging')
+        $('#pullDown').show().find('.pullDownLabel').text('全力加载中');
+        scroll.refresh();
+      }else if(position.y < (this.maxScrollY - 20)) {
+          $('#pullUp').attr('class','loaging')
+          $('#pullUp').show().find('.pullUpLabel').text('全力加载中');
+          scroll.refresh();
+      }
+    });
+    scroll.on('touchend', function (position) {
+      if($('#pullDown').hasClass('loaging')){
+        setTimeout(function(){
+          $('#pullDown').attr('class','').hide();
+          var html = "";
+          for(var k = 0;k<10;k++){
+            html+='<p>'+k+'</p>';
+          }
+          $('.min').prepend(html);
+          scroll.refresh();
+        },2000);
+      }else if($('#pullUp').hasClass('loaging')){
+        setTimeout(function(){
+          $('#pullUp').attr('class','').hide();
+          var html = "";
+          for(var k = 0;k<10;k++){
+            html+='<p>'+k+'</p>';
+          }
+          $('.min').append(html);
+          scroll.refresh();
+        },2000);
+      }
+    });
+
+
+    // var listWrapper = document.querySelector('.list-wrapper-hook'),
+    //     listContent = document.querySelector('.list-content-hook'),
+    //     alert = document.querySelector('.alert-hook'),
+    //     topTip = document.querySelector('.refresh-hook'),
+    //     bottomTip = document.querySelector('.loading-hook');
+    // /*
+    //  * 此处可优化,定义一个变量,记录用户滑动的状态,初始值为0,滑动中为1,滑动结束、数据请求成功重置为0
+    //  * 防止用户刷新列表http请求过多
+    // */
+
+    // function initScroll() {
+    //   var scroll = new window.BScroll(listWrapper, {
+    //     probeType: 1
+    //   });
+    //   // 滑动中
+    //   scroll.on('scroll', function (position) {
+    //     if(position.y > 30) {
+    //       topTip.innerText = '释放立即刷新';
+    //     }
+    //   });
+    //   /*
+    //    * @ touchend:滑动结束的状态
+    //    * @ maxScrollY:屏幕最大滚动高度
+    //   */ 
+    //   // 滑动结束
+    //   scroll.on('touchend', function (position) {
+    //     if (position.y > 30) {
+          
+    //       setTimeout(function () {
+    //         /*
+    //          * 这里发送ajax刷新数据
+    //          * 刷新后,后台只返回第1页的数据,无论用户是否已经上拉加载了更多
+    //         */
+    //         // 恢复文本值
+    //         topTip.innerText = '下拉刷新';
+    //         // 刷新成功后的提示
+    //         refreshAlert('刷新成功');
+    //         // 刷新列表后,重新计算滚动区域高度
+    //         scroll.refresh();
+    //       }, 1000);
+    //     }else if(position.y < (this.maxScrollY - 30)) {
+    //       bottomTip.innerText = '加载中...';
+    //       setTimeout(function () {
+    //         // 恢复文本值 
+    //         bottomTip.innerText = '查看更多';
+    //         // 向列表添加数据
+    //         reloadData();
+    //         // 加载更多后,重新计算滚动区域高度
+    //         scroll.refresh();
+    //       }, 5000);
+    //     }
+    //   });
+    // }
+    // initScroll();
+
+    // // 加载更多方法
+    // function reloadData() {
+    //   var template = '<li class="list-item"><div class="avatar"></div>'+
+    //           '<div class="text"><h2>只会放肆,不会说谎,好青春也是谁不想要一个深情却刺激</h2><span>2016-11-23</span></div></li>'
+    //   // 向ul容器中添加内容
+    //   listContent.innerHTML = listContent.innerHTML + template;
+    // }
+
+    // // 刷新成功提示方法
+    // function refreshAlert(text) {
+    //   text = text || '操作成功';
+    //   alert.innerHtml = text;
+    //   alert.style.display = 'block';
+    //   setTimeout(function(){
+    //     alert.style.display = 'none';
+    //   },5000);
+    // }
+  </script>
+</body>
+</html>
